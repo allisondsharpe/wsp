@@ -1,12 +1,193 @@
-/* 
+/*
 ================================================================================
 WSP COMPONENT LIBRARY STYLESHEET
 ================================================================================ */
 
+/* body elements */
+body {
+    width: 100%; /* 16px */
+    background: radial-gradient(#eee, #fff);
+}
 
+/* content id elements */
+#content {
+    border: 1px solid #fff;
+    width: 75%; /* 1200px/16px */
+    background: #333;
+    margin-left: 12.5%; /* 200px/16px */
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* content id & direct h1 elements */
+#content > h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+/* h1 elements */
+h1 {
+    color: #fff;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/* introduction image id elements */
+#introductionimg {
+    float: left;
+    clear: left;
+}
+
+/* introduction description id elements */
+#introdesc {
+    color: #fff;
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 72%;
+}
+
+/* border one id elements */
+#borderOne {
+    border-bottom: 3px solid #fff;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/* border two id elements */
+#borderTwo {
+    border-bottom: 3px solid #fff;
+    width: 90%;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+/* border three id elements */
+#borderThree {
+    border-bottom: 3px solid #fff;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+/* border four id elements */
+#borderFour {
+    border-bottom: 3px solid #fff;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+/* border five id elements */
+#borderFive {
+    border-bottom: 3px solid #fff;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+/* border six id elements */
+#borderSix {
+    border-bottom: 3px solid #fff;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+/* border seven id elements */
+#borderSeven {
+    border-bottom: 3px solid #fff;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+/* border eight id elements */
+#borderEight {
+    border-bottom: 3px solid #fff;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+/* border nine id elements */
+#borderNine {
+    border-bottom: 3px solid #fff;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
 
 /* HEADER SPECIFIC ======================================== */
 
+/* header article id & direct h2 elements + header article id & direct paragraph elements */
+#headerArticle > h2, #headerArticle > p {
+    color: #fff;
+}
+
 /* ABOUT SPECIFIC ======================================== */
 
-/* COMPONENTS SPECIFIC ======================================== */
+/* about article id & direct h2 elements + about article id & direct paragraph elements */
+#aboutArticle > h2, #aboutArticle > p {
+    color: #fff;
+}
+
+/* CTA SPECIFIC ======================================== */
+
+/* cta article id & direct h2 elements + cta article id & direct paragraph elements */
+#ctaArticle > h2, #ctaArticle > p {
+    color: #fff;
+}
+
+/* FEATURES SPECIFIC ======================================== */
+
+/* features article id & direct h2 elements + features article id & direct paragraph elements */
+#featuresArticle > h2, #featuresArticle > p {
+    color: #fff;
+}
+
+/* MEET THE TEAM SPECIFIC ======================================== */
+
+/* team article id & direct h2 elements + team article id & direct paragraph elements */
+#teamArticle > h2, #teamArticle > p {
+    color: #fff;
+}
+
+/* CONTACT SPECIFIC ======================================== */
+
+/* contact article id & direct h2 elements + contact article id & direct paragraph elements */
+#contactArticle > h2, #contactArticle > p {
+    color: #fff;
+}
+
+/* BLOG SPECIFIC ======================================== */
+
+/* blog article id & direct h2 elements + blog article id & direct paragraph elements */
+#blogArticle > h2, #blogArticle > p {
+    color: #fff;
+}
+
+
+/* NAVIGATION SPECIFIC ======================================== */
+
+/* navigation article id & direct h2 elements + navigation article id & direct paragraph elements */
+#navigationArticle > h2, #navigationArticle > p {
+    color: #fff;
+}
+
+/* SEARCH SPECIFIC ======================================== */
+
+/* search article id & direct h2 elements + search article id & direct paragraph elements */
+#searchArticle > h2, #searchArticle > p {
+    color: #fff;
+}
+
+/* FOOTER SPECIFIC ======================================== */
+
+/* footer article id & direct h2 elements + footer article id & direct paragraph elements */
+#footerArticle > h2, #footerArticle > p {
+    color: #fff;
+}
