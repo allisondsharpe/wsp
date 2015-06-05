@@ -41,9 +41,15 @@ h1 {
     margin-top: 20px;
 }
 
+/* h2 elements */
+h2 {
+    font-size: 1.1em;
+}
+
 /* h2 & paragraph elements */
 h2, h2 + p {
     margin-left: 50px;
+    margin-top: 10px;
 }
 
 /* h3 elements */
