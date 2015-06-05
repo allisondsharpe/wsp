@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4599ef6f-62ec-47cb-9c2b-094292b7b3f8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/7/blog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/7/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/7/blog.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/2/about.png" afterPath="$PROJECT_DIR$/components/2/about.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/6/contact.png" afterPath="$PROJECT_DIR$/components/6/contact.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/3/cta.png" afterPath="$PROJECT_DIR$/components/3/cta.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/4/features.png" afterPath="$PROJECT_DIR$/components/4/features.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/header.png" afterPath="$PROJECT_DIR$/components/1/header.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/8/navigation.png" afterPath="$PROJECT_DIR$/components/8/navigation.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/9/search.png" afterPath="$PROJECT_DIR$/components/9/search.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="wsp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,12 +26,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7622193">
-              <caret line="74" column="109" selection-start-line="74" selection-start-column="109" selection-end-line="74" selection-end-column="109" />
+            <state vertical-scroll-proportion="0.77939236">
+              <caret line="63" column="236" selection-start-line="63" selection-start-column="236" selection-end-line="63" selection-end-column="236" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -207,6 +197,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4599ef6f-62ec-47cb-9c2b-094292b7b3f8" name="Default" comment="" />
@@ -239,6 +232,14 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -267,12 +268,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7622193">
-          <caret line="74" column="109" selection-start-line="74" selection-start-column="109" selection-end-line="74" selection-end-column="109" />
+        <state vertical-scroll-proportion="0.77939236">
+          <caret line="63" column="236" selection-start-line="63" selection-start-column="236" selection-end-line="63" selection-end-column="236" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
