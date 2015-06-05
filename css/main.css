@@ -6,52 +6,93 @@ WSP COMPONENT LIBRARY STYLESHEET
 /* body elements */
 body {
     width: 100%; /* 16px */
-    background: radial-gradient(#eee, #fff);
+    background: radial-gradient(#fff, #eee);
 }
 
 /* content id elements */
 #content {
-    border: 1px solid #fff;
+    border: 1px solid lightgrey;
     width: 75%; /* 1200px/16px */
-    background: #333;
+    background: #fff;
+    margin-top: 10px;
     margin-left: 12.5%; /* 200px/16px */
     padding: 20px;
     overflow: hidden;
+    box-shadow: 5px -5px darkgrey;
+    font-family: sans-serif, arial;
+
 }
 
 /* content id & direct h1 elements */
 #content > h1 {
     text-align: center;
     margin-bottom: 50px;
-    text-decoration: underline;
+    margin-top: 250px;
+    font-size: 2.0em;
 }
 
 /* h1 elements */
 h1 {
-    color: #fff;
+    color: #333;
     font-size: 1.8em;
     margin-bottom: 10px;
     margin-left: 50px;
     margin-top: 20px;
 }
 
+/* h2 & paragraph elements */
+h2, h2 + p {
+    margin-left: 50px;
+}
+
+/* h3 elements */
+h3 {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 2.4em;
+    color: #333;
+}
+
 /* introduction image id elements */
 #introductionimg {
-    float: left;
-    clear: left;
+    float: right;
+    clear: right;
+    margin-right: 80px;
+    margin-top: -80px;
 }
 
 /* introduction description id elements */
 #introdesc {
-    color: #fff;
-    margin-left: 250px;
-    margin-top: 100px;
-    width: 72%;
+    color: #666;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    width: 60%;
+    font-style: italic;
+}
+
+/* border top id elements */
+#borderTop {
+    border-bottom: 3px solid lightgrey;
+    width: 90%;
+    margin-top: 200px;
+    margin-bottom: -190px;
+    margin-left: 50px;
+}
+
+/* border bottom id elements */
+#borderBottom {
+    border-bottom: 3px solid lightgrey;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 /* border one id elements */
 #borderOne {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid lightgrey;
     width: 90%;
     margin-top: 20px;
     margin-left: 50px;
@@ -59,7 +100,7 @@ h1 {
 
 /* border two id elements */
 #borderTwo {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid lightgrey;
     width: 90%;
     margin-top: 130px;
     margin-left: 50px;
@@ -67,7 +108,7 @@ h1 {
 
 /* border three id elements */
 #borderThree {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid lightgrey;
     width: 90%;
     margin-top: 30px;
     margin-left: 50px;
@@ -75,7 +116,7 @@ h1 {
 
 /* border four id elements */
 #borderFour {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid lightgrey;
     width: 90%;
     margin-top: 30px;
     margin-left: 50px;
@@ -83,7 +124,7 @@ h1 {
 
 /* border five id elements */
 #borderFive {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid lightgrey;
     width: 90%;
     margin-top: 30px;
     margin-left: 50px;
@@ -91,7 +132,7 @@ h1 {
 
 /* border six id elements */
 #borderSix {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid lightgrey;
     width: 90%;
     margin-top: 30px;
     margin-left: 50px;
@@ -99,7 +140,7 @@ h1 {
 
 /* border seven id elements */
 #borderSeven {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid lightgrey;
     width: 90%;
     margin-top: 30px;
     margin-left: 50px;
@@ -107,7 +148,7 @@ h1 {
 
 /* border eight id elements */
 #borderEight {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid lightgrey;
     width: 90%;
     margin-top: 30px;
     margin-left: 50px;
@@ -115,7 +156,7 @@ h1 {
 
 /* border nine id elements */
 #borderNine {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid lightgrey;
     width: 90%;
     margin-top: 30px;
     margin-left: 50px;
@@ -125,69 +166,128 @@ h1 {
 
 /* header article id & direct h2 elements + header article id & direct paragraph elements */
 #headerArticle > h2, #headerArticle > p {
-    color: #fff;
+    color: #666;
+    font-style: italic;
+}
+
+/* header & direct image elements */
+header > img {
+    margin-left: 48px;
 }
 
 /* ABOUT SPECIFIC ======================================== */
 
 /* about article id & direct h2 elements + about article id & direct paragraph elements */
 #aboutArticle > h2, #aboutArticle > p {
-    color: #fff;
+    color: #666;
+    font-style: italic;
+}
+
+/* about id & direct image elements */
+#about > img {
+    margin-left: 50px;
 }
 
 /* CTA SPECIFIC ======================================== */
 
 /* cta article id & direct h2 elements + cta article id & direct paragraph elements */
 #ctaArticle > h2, #ctaArticle > p {
-    color: #fff;
+    color: #666;
+    font-style: italic;
+}
+
+/* cta id & direct image elements */
+#cta > img {
+    margin-left: 50px;
 }
 
 /* FEATURES SPECIFIC ======================================== */
 
 /* features article id & direct h2 elements + features article id & direct paragraph elements */
 #featuresArticle > h2, #featuresArticle > p {
-    color: #fff;
+    color: #666;
+    font-style: italic;
+}
+
+/* features id & direct image elements */
+#features > img {
+    margin-left: 50px;
 }
 
 /* MEET THE TEAM SPECIFIC ======================================== */
 
 /* team article id & direct h2 elements + team article id & direct paragraph elements */
 #teamArticle > h2, #teamArticle > p {
-    color: #fff;
+    color: #666;
+    font-style: italic;
+}
+
+/* team id & direct image elements */
+#team > img {
+    margin-left: 50px;
 }
 
 /* CONTACT SPECIFIC ======================================== */
 
 /* contact article id & direct h2 elements + contact article id & direct paragraph elements */
 #contactArticle > h2, #contactArticle > p {
-    color: #fff;
+    color: #666;
+    font-style: italic;
+}
+
+/* contact id & direct image elements */
+#contact > img {
+    margin-left: 50px;
 }
 
 /* BLOG SPECIFIC ======================================== */
 
 /* blog article id & direct h2 elements + blog article id & direct paragraph elements */
 #blogArticle > h2, #blogArticle > p {
-    color: #fff;
+    color: #666;
+    font-style: italic;
 }
 
+/* blog id & direct image elements */
+#blog > img {
+    margin-left: 50px;
+}
 
 /* NAVIGATION SPECIFIC ======================================== */
 
 /* navigation article id & direct h2 elements + navigation article id & direct paragraph elements */
 #navigationArticle > h2, #navigationArticle > p {
-    color: #fff;
+    color: #666;
+    font-style: italic;
+}
+
+/* navigation id & direct image elements */
+#navigation > img {
+    margin-left: 50px;
 }
 
 /* SEARCH SPECIFIC ======================================== */
 
 /* search article id & direct h2 elements + search article id & direct paragraph elements */
 #searchArticle > h2, #searchArticle > p {
-    color: #fff;
+    color: #666;
+    font-style: italic;
+}
+
+/* search id & direct image elements */
+#search > img {
+    margin-left: 50px;
 }
 
 /* FOOTER SPECIFIC ======================================== */
 
 /* footer article id & direct h2 elements + footer article id & direct paragraph elements */
 #footerArticle > h2, #footerArticle > p {
-    color: #fff;
+    color: #666;
+    font-style: italic;
+}
+
+/* footer & direct image elements */
+footer > img {
+    margin-left: 50px;
 }
