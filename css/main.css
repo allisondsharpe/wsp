@@ -178,8 +178,9 @@ h3 {
     margin-left: 50px;
 }
 
-/* button class elements */
-.button {
+/* button id elements */
+#headerbtn, #aboutbtn, #ctabtn, #featuresbtn, #teambtn,
+#contactbtn, #loginbtn, #navigationbtn, #searchbtn, #footerbtn {
     border-top: 1px solid lightgrey;
     background: #4492ff;
     padding: 10px 10px 8px;
@@ -201,15 +202,17 @@ h3 {
     font-weight: 200;
 }
 
-/* button hover elements */
-.button:hover {
+/* button id hover elements */
+#headerbtn:hover, #aboutbtn:hover, #ctabtn:hover, #featuresbtn:hover, #teambtn:hover,
+#contactbtn:hover, #loginbtn:hover, #navigationbtn:hover, #searchbtn:hover, #footerbtn:hover  {
     border-top-color: #28597a;
     background: #28597a;
     color: #ccc;
 }
 
-/* button active elements */
-.button:active {
+/* button id active elements */
+#headerbtn:active, #aboutbtn:active, #ctabtn:active, #featuresbtn:active, #teambtn:active,
+#contactbtn:active, #loginbtn:active, #navigationbtn:active, #searchbtn:active, #footerbtn:active  {
     border-top-color: #1b435e;
     background: #1b435e;
 }
