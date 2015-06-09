@@ -6,26 +6,27 @@ WSP COMPONENT LIBRARY STYLESHEET
 /* body elements */
 body {
     width: 100%; /* 16px */
-    background: #fff;
+    background: url('../images/bg.jpg');
 }
 
 /* section elements */
 section {
     width: 75%; /* 1200px/16px */
-    background: #fff;
-    margin-top: 20px;
+    background: #f2f2f2;
+    margin-top: 50px;
     margin-left: 12.5%; /* 200px/16px */
+    margin-bottom: 50px;
     border: 1px solid #eee;
     padding: 25px;
     overflow: hidden;
-    box-shadow: 8px -8px darkgrey;
+    box-shadow: 8px -8px #666;
     font-family: sans-serif, arial;
 }
 
 /* section & direct h1 elements */
 section > h1 {
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 30px;
     font-size: 2.0em;
 }
@@ -35,10 +36,7 @@ h1 {
     color: #666;
     font-weight: 300;
     font-size: 2.0em;
-    margin-bottom: 20px;
     margin-left: 50px;
-    margin-top: 80px;
-    text-align: center;
 }
 
 /* h2 elements */
@@ -142,9 +140,9 @@ p {
 /* header id & direct image elements */
 #header > img {
     margin-left: 48px;
-    border: 1px solid #eee;
+    border: 1px solid #fff;
     width: 750px;
-    height: 80px;
+    height: 100px;
 }
 
 /* ABOUT SPECIFIC ======================================== */
@@ -159,7 +157,7 @@ p {
 /* about id & direct image elements */
 #about > img {
     margin-left: 50px;
-    border: 1px solid #eee;
+    border: 1px solid #fff;
     width: 650px;
     height: 270px;
 }
@@ -176,7 +174,7 @@ p {
 /* cta id & direct image elements */
 #cta > img {
     margin-left: 50px;
-    border: 1px solid #eee;
+    border: 1px solid #fff;
     width: 600px;
     height: 250px;
 }
@@ -193,7 +191,7 @@ p {
 /* features id & direct image elements */
 #features > img {
     margin-left: 50px;
-    border: 1px solid #eee;
+    border: 1px solid #fff;
     width: 630px;
     height: 350px;
 }
@@ -210,7 +208,7 @@ p {
 /* team id & direct image elements */
 #team > img {
     margin-left: 50px;
-    border: 1px solid #eee;
+    border: 1px solid #fff;
     width: 700px;
     height: 400px;
 }
@@ -227,7 +225,7 @@ p {
 /* contact id & direct image elements */
 #contact > img {
     margin-left: 50px;
-    border: 1px solid #eee;
+    border: 1px solid #fff;
     width: 580px;
     height: 300px;
 }
@@ -244,7 +242,7 @@ p {
 /* login id & direct image elements */
 #login > img {
     margin-left: 50px;
-    border: 1px solid #eee;
+    border: 1px solid #fff;
     width: 600px;
     height: 220px;
 }
@@ -261,9 +259,9 @@ p {
 /* navigation id & direct image elements */
 #navigation > img {
     margin-left: 50px;
-    border: 1px solid #eee;
+    border: 1px solid #fff;
     width: 850px;
-    height: 60px;
+    height: 65px;
 }
 
 /* SEARCH SPECIFIC ======================================== */
@@ -278,7 +276,7 @@ p {
 /* search id & direct image elements */
 #search > img {
     margin-left: 50px;
-    border: 1px solid #eee;
+    border: 1px solid #fff;
     width: 550px;
     height: 30px;
 }
@@ -295,7 +293,7 @@ p {
 /* footer id & direct image elements */
 #footer > img {
     margin-left: 50px;
-    border: 1px solid #eee;
+    border: 1px solid #fff;
     width: 810px;
     height: 250px;
 }
