@@ -9,8 +9,8 @@ body {
     background: #fff;
 }
 
-/* content id elements */
-#content {
+/* section elements */
+section {
     width: 75%; /* 1200px/16px */
     background: #fff;
     margin-top: 20px;
@@ -22,11 +22,11 @@ body {
     font-family: sans-serif, arial;
 }
 
-/* content id & direct h1 elements */
-#content > h1 {
-    text-align: center;
+/* section & direct h1 elements */
+section > h1 {
+    text-align: left;
     margin-bottom: 50px;
-    margin-top: 250px;
+    margin-top: 30px;
     font-size: 2.0em;
 }
 
@@ -34,10 +34,11 @@ body {
 h1 {
     color: #666;
     font-weight: 300;
-    font-size: 1.8em;
+    font-size: 2.0em;
     margin-bottom: 20px;
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 80px;
+    text-align: center;
 }
 
 /* h2 elements */
@@ -62,16 +63,25 @@ h3 {
     font-weight: 300;
 }
 
+/* paragraph elements */
+p {
+    margin-bottom: 20px;
+}
+
 /* introduction image id elements */
-#introductionimg {
+#introimg {
     float: right;
     clear: right;
     margin-right: 80px;
     margin-top: -80px;
+    border: 1px solid lightgrey;
+    border-radius: 10em;
+    width: 230px;
+    height: 228px;
 }
 
-/* introduction description id elements */
-#introdesc {
+/* introduction id & direct paragraph elements */
+#introduction > p {
     color: #666;
     margin-left: 60px;
     margin-top: 20px;
@@ -79,103 +89,6 @@ h3 {
     width: 60%;
     font-style: italic;
     font-weight: 200;
-}
-
-/* border top id elements */
-#borderTop {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-/* border bottom id elements */
-#borderBottom {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 130px;
-    margin-left: 50px;
-    margin-bottom: -100px;
-}
-
-/* border one id elements */
-#borderOne {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 20px;
-    margin-left: 50px;
-}
-
-/* border two id elements */
-#borderTwo {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 30px;
-    margin-left: 50px;
-}
-
-/* border three id elements */
-#borderThree {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 30px;
-    margin-left: 50px;
-}
-
-/* border four id elements */
-#borderFour {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 30px;
-    margin-left: 50px;
-}
-
-/* border five id elements */
-#borderFive {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 30px;
-    margin-left: 50px;
-}
-
-/* border six id elements */
-#borderSix {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 30px;
-    margin-left: 50px;
-}
-
-/* border seven id elements */
-#borderSeven {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 30px;
-    margin-left: 50px;
-}
-
-/* border eight id elements */
-#borderEight {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 30px;
-    margin-left: 50px;
-}
-
-/* border nine id elements */
-#borderNine {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 30px;
-    margin-left: 50px;
-}
-
-/* border ten id elements */
-#borderTen {
-    border-bottom: 3px solid lightgrey;
-    width: 90%;
-    margin-top: 30px;
-    margin-left: 50px;
 }
 
 /* button id elements */
@@ -226,9 +139,12 @@ h3 {
     font-weight: 200;
 }
 
-/* header & direct image elements */
-header > img {
+/* header id & direct image elements */
+#header > img {
     margin-left: 48px;
+    border: 1px solid #eee;
+    width: 750px;
+    height: 80px;
 }
 
 /* ABOUT SPECIFIC ======================================== */
@@ -243,6 +159,9 @@ header > img {
 /* about id & direct image elements */
 #about > img {
     margin-left: 50px;
+    border: 1px solid #eee;
+    width: 650px;
+    height: 270px;
 }
 
 /* CTA SPECIFIC ======================================== */
@@ -257,6 +176,9 @@ header > img {
 /* cta id & direct image elements */
 #cta > img {
     margin-left: 50px;
+    border: 1px solid #eee;
+    width: 600px;
+    height: 250px;
 }
 
 /* FEATURES SPECIFIC ======================================== */
@@ -271,6 +193,9 @@ header > img {
 /* features id & direct image elements */
 #features > img {
     margin-left: 50px;
+    border: 1px solid #eee;
+    width: 630px;
+    height: 350px;
 }
 
 /* MEET THE TEAM SPECIFIC ======================================== */
@@ -285,6 +210,9 @@ header > img {
 /* team id & direct image elements */
 #team > img {
     margin-left: 50px;
+    border: 1px solid #eee;
+    width: 700px;
+    height: 400px;
 }
 
 /* CONTACT SPECIFIC ======================================== */
@@ -299,6 +227,9 @@ header > img {
 /* contact id & direct image elements */
 #contact > img {
     margin-left: 50px;
+    border: 1px solid #eee;
+    width: 580px;
+    height: 300px;
 }
 
 /* LOG IN/REGISTER SPECIFIC ======================================== */
@@ -313,6 +244,9 @@ header > img {
 /* login id & direct image elements */
 #login > img {
     margin-left: 50px;
+    border: 1px solid #eee;
+    width: 600px;
+    height: 220px;
 }
 
 /* NAVIGATION SPECIFIC ======================================== */
@@ -327,6 +261,9 @@ header > img {
 /* navigation id & direct image elements */
 #navigation > img {
     margin-left: 50px;
+    border: 1px solid #eee;
+    width: 850px;
+    height: 60px;
 }
 
 /* SEARCH SPECIFIC ======================================== */
@@ -341,6 +278,9 @@ header > img {
 /* search id & direct image elements */
 #search > img {
     margin-left: 50px;
+    border: 1px solid #eee;
+    width: 550px;
+    height: 30px;
 }
 
 /* FOOTER SPECIFIC ======================================== */
@@ -352,7 +292,10 @@ header > img {
     font-weight: 200;
 }
 
-/* footer & direct image elements */
-footer > img {
+/* footer id & direct image elements */
+#footer > img {
     margin-left: 50px;
+    border: 1px solid #eee;
+    width: 810px;
+    height: 250px;
 }
