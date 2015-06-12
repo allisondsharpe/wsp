@@ -3,6 +3,17 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* h1 elements */
+h1 {
+    margin-bottom: 10px;
+}
 
-/* HEADER ======================================== */
+/* section elements */
+section {
+    margin-bottom: 10px;
+}
+
+/* navigational elements */
+nav {
+    margin-bottom: 10px;
+}

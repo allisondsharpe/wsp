@@ -3,6 +3,25 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* h1 elements */
+h1, ul {
+    margin-bottom: 10px;
+}
 
-/* HEADER ======================================== */
+/* navigational elements */
+nav {
+    margin-top: 10px;
+}
+
+/* input elements */
+input {
+    border: 1px solid #000;
+}
+
+/* li elements */
+li {
+    display: inline;
+    margin-right: 5px;
+}
+
+

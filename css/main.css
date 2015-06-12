@@ -17,7 +17,7 @@ section {
     margin-left: 12.5%; /* 200px/16px */
     margin-bottom: 50px;
     border: 1px solid #eee;
-    padding: 25px;
+    padding: 30px;
     overflow: hidden;
     box-shadow: 8px -8px #666;
     font-family: sans-serif, arial;
@@ -29,6 +29,18 @@ section > h1 {
     margin-bottom: 30px;
     margin-top: 30px;
     font-size: 2.0em;
+}
+
+/* article elements */
+article {
+    color: #666;
+    font-weight: 400;
+}
+
+/* article direct paragraph elements */
+article > p {
+    color: #666;
+    font-weight: 200;
 }
 
 /* h1 elements */
@@ -89,9 +101,8 @@ p {
     font-weight: 200;
 }
 
-/* button id elements */
-#headerbtn, #aboutbtn, #ctabtn, #featuresbtn, #teambtn,
-#contactbtn, #loginbtn, #navigationbtn, #searchbtn, #footerbtn {
+/* button class elements */
+.button {
     border-top: 1px solid lightgrey;
     background: #4492ff;
     padding: 10px 10px 8px;
@@ -107,193 +118,131 @@ p {
     font-family: sans-serif, arial;
     text-decoration: none;
     vertical-align: middle;
-    margin-left: 410px;
+    margin-left: 390px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: 200;
 }
 
-/* button id hover elements */
-#headerbtn:hover, #aboutbtn:hover, #ctabtn:hover, #featuresbtn:hover, #teambtn:hover,
-#contactbtn:hover, #loginbtn:hover, #navigationbtn:hover, #searchbtn:hover, #footerbtn:hover  {
+/* button class hover elements */
+.button:hover {
     border-top-color: #28597a;
     background: #28597a;
     color: #ccc;
 }
 
-/* button id active elements */
-#headerbtn:active, #aboutbtn:active, #ctabtn:active, #featuresbtn:active, #teambtn:active,
-#contactbtn:active, #loginbtn:active, #navigationbtn:active, #searchbtn:active, #footerbtn:active  {
+/* button class active elements */
+.button:active {
     border-top-color: #1b435e;
     background: #1b435e;
 }
 
 /* HEADER SPECIFIC ======================================== */
 
-/* header article id & direct h2 elements + header article id & direct paragraph elements */
-#headerArticle > h2, #headerArticle > p {
-    color: #666;
-    font-style: italic;
-    font-weight: 200;
-}
-
 /* header id & direct image elements */
 #header > img {
     margin-left: 48px;
-    border: 1px solid #fff;
+    margin-bottom: 20px;
+    border: 1px solid #333;
     width: 750px;
-    height: 100px;
+    height: 110px;
 }
 
 /* ABOUT SPECIFIC ======================================== */
 
-/* about article id & direct h2 elements + about article id & direct paragraph elements */
-#aboutArticle > h2, #aboutArticle > p {
-    color: #666;
-    font-style: italic;
-    font-weight: 200;
-}
-
 /* about id & direct image elements */
 #about > img {
     margin-left: 50px;
-    border: 1px solid #fff;
+    margin-bottom: 20px;
+    border: 1px solid #333;
     width: 650px;
-    height: 270px;
+    height: 300px;
 }
 
 /* CTA SPECIFIC ======================================== */
 
-/* cta article id & direct h2 elements + cta article id & direct paragraph elements */
-#ctaArticle > h2, #ctaArticle > p {
-    color: #666;
-    font-style: italic;
-    font-weight: 200;
-}
-
 /* cta id & direct image elements */
 #cta > img {
     margin-left: 50px;
-    border: 1px solid #fff;
+    margin-bottom: 20px;
+    border: 1px solid #333;
     width: 600px;
     height: 250px;
 }
 
 /* FEATURES SPECIFIC ======================================== */
 
-/* features article id & direct h2 elements + features article id & direct paragraph elements */
-#featuresArticle > h2, #featuresArticle > p {
-    color: #666;
-    font-style: italic;
-    font-weight: 200;
-}
-
 /* features id & direct image elements */
 #features > img {
     margin-left: 50px;
-    border: 1px solid #fff;
+    margin-bottom: 20px;
+    border: 1px solid #333;
     width: 630px;
     height: 350px;
 }
 
 /* MEET THE TEAM SPECIFIC ======================================== */
 
-/* team article id & direct h2 elements + team article id & direct paragraph elements */
-#teamArticle > h2, #teamArticle > p {
-    color: #666;
-    font-style: italic;
-    font-weight: 200;
-}
-
 /* team id & direct image elements */
 #team > img {
     margin-left: 50px;
-    border: 1px solid #fff;
+    margin-bottom: 20px;
+    border: 1px solid #333;
     width: 700px;
     height: 400px;
 }
 
 /* CONTACT SPECIFIC ======================================== */
 
-/* contact article id & direct h2 elements + contact article id & direct paragraph elements */
-#contactArticle > h2, #contactArticle > p {
-    color: #666;
-    font-style: italic;
-    font-weight: 200;
-}
-
 /* contact id & direct image elements */
 #contact > img {
     margin-left: 50px;
-    border: 1px solid #fff;
-    width: 580px;
-    height: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    width: 590px;
+    height: 320px;
 }
 
 /* LOG IN/REGISTER SPECIFIC ======================================== */
 
-/* login article id & direct h2 elements + login article id & direct paragraph elements */
-#loginArticle > h2, #loginArticle > p {
-    color: #666;
-    font-style: italic;
-    font-weight: 200;
-}
-
 /* login id & direct image elements */
 #login > img {
     margin-left: 50px;
-    border: 1px solid #fff;
+    margin-bottom: 20px;
+    border: 1px solid #333;
     width: 600px;
     height: 220px;
 }
 
 /* NAVIGATION SPECIFIC ======================================== */
 
-/* navigation article id & direct h2 elements + navigation article id & direct paragraph elements */
-#navigationArticle > h2, #navigationArticle > p {
-    color: #666;
-    font-style: italic;
-    font-weight: 200;
-}
-
 /* navigation id & direct image elements */
 #navigation > img {
     margin-left: 50px;
-    border: 1px solid #fff;
-    width: 850px;
-    height: 65px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    width: 833px;
+    height: 60px;
 }
 
 /* SEARCH SPECIFIC ======================================== */
 
-/* search article id & direct h2 elements + search article id & direct paragraph elements */
-#searchArticle > h2, #searchArticle > p {
-    color: #666;
-    font-style: italic;
-    font-weight: 200;
-}
-
 /* search id & direct image elements */
 #search > img {
     margin-left: 50px;
-    border: 1px solid #fff;
+    margin-bottom: 20px;
+    border: 1px solid #333;
     width: 550px;
     height: 30px;
 }
 
 /* FOOTER SPECIFIC ======================================== */
 
-/* footer article id & direct h2 elements + footer article id & direct paragraph elements */
-#footerArticle > h2, #footerArticle > p {
-    color: #666;
-    font-style: italic;
-    font-weight: 200;
-}
-
 /* footer id & direct image elements */
 #footer > img {
     margin-left: 50px;
+    margin-bottom: 20px;
     border: 1px solid #fff;
     width: 810px;
-    height: 250px;
+    height: 270px;
 }

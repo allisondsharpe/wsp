@@ -3,6 +3,13 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* h1 and unordered list elements */
+h1, ul {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
 
-/* HEADER ======================================== */
+/* paragraph elements */
+p {
+    margin-bottom: 10px;
+}

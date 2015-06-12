@@ -3,6 +3,18 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* input elements */
+input {
+    border: 1px solid #000;
+}
 
-/* HEADER ======================================== */
+/* h1 elements */
+h1 {
+    margin-bottom: 10px;
+}
+
+/* button elements */
+button {
+    margin-top: 10px;
+}
+
