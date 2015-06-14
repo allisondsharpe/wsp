@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4599ef6f-62ec-47cb-9c2b-094292b7b3f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/2/about.css" afterPath="$PROJECT_DIR$/components/2/about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/2/about.html" afterPath="$PROJECT_DIR$/components/2/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/3/cta.html" afterPath="$PROJECT_DIR$/components/3/cta.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/4/features.html" afterPath="$PROJECT_DIR$/components/4/features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/header.css" afterPath="$PROJECT_DIR$/components/1/header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/header.html" afterPath="$PROJECT_DIR$/components/1/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/7/login.html" afterPath="$PROJECT_DIR$/components/7/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/9/search.css" afterPath="$PROJECT_DIR$/components/9/search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/5/team.html" afterPath="$PROJECT_DIR$/components/5/team.html" />
     </list>
     <ignored path="wsp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,20 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/1/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6142669">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/1/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40460947">
+            <state vertical-scroll-proportion="0.0">
               <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
               <folding />
             </state>
@@ -87,8 +79,8 @@
         <option value="$PROJECT_DIR$/components/2/about.html" />
         <option value="$PROJECT_DIR$/components/2/about.css" />
         <option value="$PROJECT_DIR$/components/9/search.css" />
-        <option value="$PROJECT_DIR$/components/1/header.html" />
         <option value="$PROJECT_DIR$/components/1/header.css" />
+        <option value="$PROJECT_DIR$/components/1/header.html" />
       </list>
     </option>
   </component>
@@ -157,24 +149,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,18 +450,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/1/header.html">
+    <entry file="file://$PROJECT_DIR$/components/1/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/1/header.css">
+    <entry file="file://$PROJECT_DIR$/components/1/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40460947">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.6142669">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding />
         </state>
       </provider>
