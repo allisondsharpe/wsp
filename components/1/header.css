@@ -3,6 +3,16 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+/* body elements */
+body {
+    background: #cccccc;
+}
+
+/* header elements */
+header {
+    border: 1px solid #666;
+}
+
 /* h1 elements */
 h1, ul {
     margin-bottom: 10px;

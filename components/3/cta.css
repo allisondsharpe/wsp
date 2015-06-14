@@ -3,6 +3,11 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+/* aside elements */
+aside {
+    border: 1px solid #666;
+}
+
 /* h1 and unordered list elements */
 h1, ul {
     margin-bottom: 5px;
@@ -13,3 +18,4 @@ h1, ul {
 p {
     margin-bottom: 10px;
 }
+

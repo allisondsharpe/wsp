@@ -101,8 +101,8 @@ p {
     font-weight: 200;
 }
 
-/* button class elements */
-.button {
+/* button elements */
+button {
     border-top: 1px solid lightgrey;
     background: #4492ff;
     padding: 10px 10px 8px;
@@ -124,15 +124,15 @@ p {
     font-weight: 200;
 }
 
-/* button class hover elements */
-.button:hover {
+/* button hover elements */
+button:hover {
     border-top-color: #28597a;
     background: #28597a;
     color: #ccc;
 }
 
-/* button class active elements */
-.button:active {
+/* button active elements */
+button:active {
     border-top-color: #1b435e;
     background: #1b435e;
 }

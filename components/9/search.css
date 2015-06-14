@@ -18,3 +18,62 @@ button {
     margin-top: 10px;
 }
 
+/* a elements */
+a {
+    color: #000;
+}
+
+/* navigational list items hover & direct a elements */
+nav li:hover > a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* navigational class of "arrow" elements */
+nav .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+
+/* navigation, direct unordered list, & direct list item elements */
+nav > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size: 1.0em;
+}
+
+/* navigation, direct unordered list, direct list items, & direct a elements */
+nav > ul > li > a {
+    padding: 10px 20px;
+}
+
+/* navigational list item hover & "sub-menu" class elements */
+nav li:hover .sub-menu {
+    z-index: 1;
+    opacity: 1;
+}
+
+/* "sub-menu" class elements */
+.sub-menu {
+    width: 100%;
+    padding: 5px;
+    opacity: 0;
+}
+
+/* "sub-menu" class list item elements */
+.sub-menu li {
+    display: block;
+    font-size: 0.8em;
+}
+
+/* "sub-menu" class list items & a elements */
+.sub-menu li a {
+    padding: 10px 20px;
+    display: block;
+}
+
+/* "sub-menu" class list items & a hover elements */
+.sub-menu li a:hover {
+    background: #eee;
+}

@@ -8,15 +8,23 @@
 <body>
 
 	<!-- Component -->
-    <section> <!-- opening section button -->
-        <h1> Search </h1>
+
+    <form> <!-- opening form tag -->
         <label for="search"></label>
-            <input type="text" id="search">
-    </section>
+        <input type="text" id="search">
+    </form> <!-- closing form tag -->
 
     <nav> <!-- opening navigational tag -->
         <ul>
-            <li><a href="#"> All categories <span class="arrow">&#9660;</span></a> <!-- will add more list items for drop down menu in between here --> </li>
+            <li>
+                <a href="#">All Categories<span class="arrow">&#9660;</span></a>
+                <ul class="sub-menu"> <!-- opening ul class tag for "sub-menu" -->
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Clothing & Merchandise</a></li>
+                    <li><a href="#">Gardening</a></li>
+                    <li><a href="#">Appliances</a></li>
+                </ul> <!-- closing ul class tag for "sub-menu" -->
+            </li>
         </ul>
     </nav> <!-- closing navigational tag -->
 
