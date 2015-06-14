@@ -5,12 +5,7 @@ COMPONENT STYLESHEET
 
 /* body elements */
 body {
-    background: #cccccc;
-}
-
-/* header elements */
-header {
-    border: 1px solid #666;
+    background: #fff;
 }
 
 /* h1 elements */
@@ -18,9 +13,32 @@ h1, ul {
     margin-bottom: 10px;
 }
 
+/* h1 & logo id elements */
+h1, #logo {
+    clear: left;
+}
+
+/* logo id elements */
+#logo {
+    width: 80px;
+}
+
+/* search, links, & nav-links id elements */
+#search, #links, #nav-links {
+    float: right;
+}
+
+#nav-links {
+    margin-right: -250px;
+    margin-top: -15px;
+}
+
 /* navigational elements */
 nav {
     margin-top: 10px;
+    float: left;
+    clear: left;
+    background: lightgreen;
 }
 
 /* input elements */
@@ -48,9 +66,9 @@ nav .arrow {
 
 /* navigation, direct unordered list, & direct list item elements */
 nav > ul > li {
-    float:left;
-    display:inline-block;
-    position:relative;
+    float: left;
+    display: inline-block;
+    position: relative;
     font-size: 1.0em;
 }
 
@@ -70,6 +88,7 @@ nav li:hover #dropDown {
     width: 100%;
     padding: 5px;
     opacity: 0;
+    position: absolute;
 }
 
 /* "drop down" id list item elements */
@@ -80,7 +99,7 @@ nav li:hover #dropDown {
 
 /* "drop down" id list items & a elements */
 #dropDown li a {
-    padding: 10px 20px;
+    padding: 10px 0px;
     display: block;
 }
 
