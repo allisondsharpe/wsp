@@ -9,12 +9,8 @@ h1 {
     margin-bottom: 5px;
 }
 
-/* h3 elements */
-h3 {
-    margin-top: 20px;
-}
-
 /* paragraph elements */
 p {
     margin-bottom: 10px;
+    margin-top: 20px;
 }

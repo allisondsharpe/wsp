@@ -3,12 +3,25 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+/* body elements */
+body {
+    background: #eee;
+}
+
 /* header elements */
 header {
-    margin-bottom: 10px;
+    margin: 0px 80px 10px 40px;
+    border-bottom: 2px solid #000;
+    padding: 20px 0px 5px 20px;
 }
 
 /* section elements */
 section {
     margin-bottom: 10px;
+}
+
+/* navigational elements */
+nav {
+    border: 1px solid #666;
+    background: #fff;
 }

@@ -6,16 +6,88 @@ COMPONENT STYLESHEET
 /* aside elements */
 aside {
     border: 1px solid #666;
+    position: absolute;
+    padding: 0px 20px 20px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-/* h1 and unordered list elements */
-h1, ul {
-    margin-bottom: 5px;
-    margin-top: 10px;
+/* header direct paragraph, figure, paragraph, and figure elements */
+header > p, figure, ul, footer {
+    padding-left: 30px;
 }
 
-/* paragraph elements */
-p {
+/* header direct paragraph elements */
+header > p {
+    font-size: 1.5em;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: navy;
+    text-transform: uppercase;
     margin-bottom: 10px;
 }
 
+/* header image, first child elements */
+header img:nth-child(1) {
+    width: 500px;
+    margin-left: -20px;
+}
+
+/* header image, second child elements */
+header img:nth-child(2) {
+    width: 70px;
+    margin-left: 300px;
+}
+
+/* figure direct h1 elements */
+figure > h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: navy;
+    font-size: 1.6em;
+    font-family: sans-serif;
+}
+
+/* figure image elements */
+figure > img {
+    width: 400px;
+    height: 200px;
+    margin-left: 420px;
+    margin-top: -40px;
+}
+
+/* strong elements */
+strong {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+/* unordered list elements */
+ul {
+    margin-top: -150px;
+    color: #666;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+/* list item elements */
+li {
+    margin-bottom: 10px;
+}
+
+/* list item a elements */
+li > a {
+    color: #333;
+    font-weight: 600;
+}
+
+/* footer direct paragraph elements */
+footer > p {
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #333;
+    opacity: 0.4;
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+}

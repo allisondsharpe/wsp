@@ -8,22 +8,22 @@
 <body>
 
 	<!-- Component -->
-    <form> <!-- opening form tag -->
+    <form id="signInForm"> <!-- opening form tag -->
         <h1> Sign In </h1>
 
         <label for="user">Email or User ID</label>
             <input type="text" id="user">
         <label for="pass">Password</label>
             <input type="text" id="pass">
-            <a href="#"> Forgot your password? </a>
-        <label for="signedIn"> Stay signed in </label>
+            <a href="#" id="forgot"> Forgot your password? </a>
+        <label for="signedIn" id="signedInLabel"> Stay signed in </label>
             <input type="checkbox" id="signedIn">
             <p> If this is a public or shared device, uncheck and sign out when you're done to protect your account. <a href="#">Learn More</a></p>
 
         <button type="button" id="signin">Sign in</button>
     </form> <!-- closing form tag -->
 
-    <form> <!-- opening form tag -->
+    <form id="registerForm"> <!-- opening form tag -->
         <h1> New to Sharpe's Supplies? </h1>
         <p> Get started now. It's fast and easy! </p>
 

@@ -3,47 +3,56 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* h1 elements */
-h1 {
+header > img {
+    float: left;
+    padding: 20px;
+}
+
+header > h1 {
+    padding: 20px;
+}
+
+header > p {
+    width: 80%;
+    float: left;
+}
+
+/* h1, navigational, & section elements */
+h1, nav, section {
     margin-bottom: 10px;
 }
 
-/* section elements */
-section {
-    margin-bottom: 10px;
+article {
+    clear: left;
 }
 
-/* navigational elements */
 nav {
-    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 300px;
 }
 
-/* "menu" class a elements */
-.menu a {
+/* navigational a elements */
+nav a {
     color: #000;
 }
 
-/* "menu" & "arrow" class elements */
-.menu .arrow {
+/* span elements */
+span {
     font-size: 0.7em;
     line-height: 0%;
 }
 
-/* "menu" class, direct unordered list, & direct list item elements */
-.menu > ul > li {
+/* navigational, direct unordered list, & direct list items */
+nav > ul > li {
+    padding: 10px 20px;
     float: left;
     display: inline-block;
     position: relative;
     font-size: 1.0em;
 }
 
-/* "menu" class, direct unordered list, direct list items, & direct a elements */
-.menu > ul > li > a {
-    padding: 10px 20px;
-}
-
-/* "menu" class list item hover & "sub-menu" class elements */
-.menu li:hover .sub-menu {
+/* navigational list item hover & "sub-menu" class elements */
+nav li:hover .sub-menu {
     z-index: 1;
     opacity: 1;
 }

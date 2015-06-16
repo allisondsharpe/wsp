@@ -8,79 +8,41 @@ body {
     background: #fff;
 }
 
-/* h1 elements */
-h1, ul {
-    margin-bottom: 10px;
-}
-
-/* h1 & logo id elements */
-h1, #logo {
-    clear: left;
-}
-
-/* logo id elements */
-#logo {
-    width: 80px;
-}
-
-/* search, links, & nav-links id elements */
-#search, #links, #nav-links {
-    float: right;
-}
-
-#nav-links {
-    margin-right: -250px;
-    margin-top: -15px;
+/* ul elements */
+ul {
+    float: left;
 }
 
 /* navigational elements */
 nav {
-    margin-top: 10px;
-    float: left;
-    clear: left;
-    background: lightgreen;
+    margin: 10px 10px 0px 10px;
+    background: #0fbc87;
 }
 
-/* input elements */
-input {
-    border: 1px solid #000;
-}
-
-/* li elements */
-li {
-    display: inline;
-    margin-right: 5px;
+/* navigational span elements */
+nav span {
+    font-size: 0.7em;
 }
 
 /* navigational list items hover & direct a elements */
 nav li:hover > a {
     text-decoration: none;
-    color: #333;
+    background: #fff;
+    color: #666;
+    height: 55px;
 }
 
-/* navigational class of "arrow" elements */
-nav .arrow {
-    font-size: 0.7em;
-    line-height: 0%;
-}
-
-/* navigation, direct unordered list, & direct list item elements */
-nav > ul > li {
-    float: left;
-    display: inline-block;
-    position: relative;
-    font-size: 1.0em;
-}
-
-/* navigation, direct unordered list, direct list items, & direct a elements */
-nav > ul > li > a {
-    padding: 10px 20px;
-}
-
-/* navigational list item hover & "drop down" id elements */
+/* navigational list item hover for "drop down" id elements */
 nav li:hover #dropDown {
     z-index: 1;
     opacity: 1;
+}
+
+/* navigational image elements */
+nav img {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
 }
 
 /* "drop down" id elements */
@@ -89,23 +51,48 @@ nav li:hover #dropDown {
     padding: 5px;
     opacity: 0;
     position: absolute;
-}
-
-/* "drop down" id list item elements */
-#dropDown li {
-    display: block;
-    font-size: 0.8em;
-}
-
-/* "drop down" id list items & a elements */
-#dropDown li a {
-    padding: 10px 0px;
     display: block;
 }
 
-/* "drop down" id list items & a hover elements */
-#dropDown li a:hover {
-    background: #eee;
+/* "drop down" id list item & a elements */
+#dropDown li, a {
+    display: block;
+    font-size: 1.0em;
+    padding: 20px;
+    color: #fff;
 }
 
+/* "drop down" id a elements */
+#dropDown a {
+    color: #666;
+}
 
+/* list elements */
+li {
+    float: left;
+    display: inline-block;
+    position: relative;
+    font-size: 1.0em;
+}
+
+/* figure & figure image elements */
+figure, figure img {
+    width: 90px;
+    height: 80px;
+    clear: both;
+    margin: 10px 0px 0px 5px;
+}
+
+/* form image elements */
+form img {
+    width: 20px;
+    height: 20px;
+}
+
+/* input elements */
+input {
+    margin-right: 700px;
+    border: 1px solid #000;
+    width: 300px;
+    height: 25px;
+}

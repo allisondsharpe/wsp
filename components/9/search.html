@@ -8,27 +8,44 @@
 <body>
 
 	<!-- Component -->
+    <header> <!-- opening header tag -->
 
-    <form> <!-- opening form tag -->
-        <label for="search"></label>
-        <input type="text" id="search">
-    </form> <!-- closing form tag -->
+        <nav> <!-- opening navigational tag -->
+            <ul>
+                <li>
+                    <a href="#">Shop by Category<span class="arrow">&#9660;</span></a>
+                    <ul class="subMenuOne"> <!-- opening ul class tag for "sub menu one" -->
+                        <li><a href="#">List item one</a></li>
+                        <li><a href="#">List item two</a></li>
+                        <li><a href="#">List item three</a></li>
+                        <li><a href="#">List item four</a></li>
+                    </ul> <!-- closing ul class tag for "sub menu one" -->
+                </li>
+            </ul>
+        </nav> <!-- closing navigational tag -->
 
-    <nav> <!-- opening navigational tag -->
-        <ul>
-            <li>
-                <a href="#">All Categories<span class="arrow">&#9660;</span></a>
-                <ul class="sub-menu"> <!-- opening ul class tag for "sub-menu" -->
-                    <li><a href="#">Electronics</a></li>
-                    <li><a href="#">Clothing & Merchandise</a></li>
-                    <li><a href="#">Gardening</a></li>
-                    <li><a href="#">Appliances</a></li>
-                </ul> <!-- closing ul class tag for "sub-menu" -->
-            </li>
-        </ul>
-    </nav> <!-- closing navigational tag -->
+        <form> <!-- opening form tag -->
+            <label for="search"></label>
+                <input type="text" id="search" placeholder="Search for any item">
+        </form> <!-- closing form tag -->
 
-    <button type="button">Search</button>
+        <nav> <!-- opening navigational tag -->
+            <ul>
+                <li>
+                    <a href="#" id="dropDownTwo">All Categories<span class="arrow">&#9660;</span></a>
+                    <ul class="subMenuTwo"> <!-- opening ul class tag for "sub menu two" -->
+                        <li><a href="#">Electronics</a></li>
+                        <li><a href="#">Clothing & Merchandise</a></li>
+                        <li><a href="#">Gardening</a></li>
+                        <li><a href="#">Appliances</a></li>
+                    </ul> <!-- closing ul class tag for "sub menu two" -->
+                </li>
+            </ul>
+        </nav> <!-- closing navigational tag -->
+
+        <button type="button">Search</button>
+
+    </header> <!-- closing header tag -->
 	<!-- End Component -->
 	
 </body>

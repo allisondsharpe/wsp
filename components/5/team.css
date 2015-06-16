@@ -3,13 +3,18 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* h2 elements */
-h2 {
+/* header elements */
+header {
+    margin-bottom: 20px;
+}
+
+/* h1 elements */
+h1 {
     margin-bottom: 5px;
 }
 
-/* list item elements */
-li {
+/* navigational elements */
+nav {
     margin-top: 10px;
-    margin-bottom: 3px;
+    margin-bottom: 20px;
 }

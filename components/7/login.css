@@ -3,19 +3,63 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* input elements */
-input {
-    border: 1px solid #000;
+/* "sign in form" id elements */
+#signInForm {
+    padding-left: 30px;
+    padding-right: -700px;
+    border-right: 1px solid #000;
+    float: left;
+}
+
+/* register form elements */
+#registerForm {
+    padding-left: 30px;
+    float: left;
+}
+
+/* "sign in form" id direct paragraph elements */
+#signInForm > p {
+    width: 55%;
+    margin-left: 25px;
+    margin-bottom: -15px;
 }
 
 /* h1 elements */
 h1 {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* "user" & "pass" id elements */
+#user, #pass {
+    width: 350px;
+    height: 30px;
+    border: 1px solid #000;
+}
+
+/* label, input, paragraph, "forgot" id, & button elements */
+label, input, #signInForm > p, #forgot, button {
+    float: left;
+    clear: left;
+    margin-bottom: 5px;
+}
+
+/* "forgot" id elements */
+#forgot {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+/* "signed in label elements */
+#signedInLabel {
+    margin-left: 25px;
+    margin-bottom: -15px;
 }
 
 /* sign in id elements */
 #signin {
     display: block;
-    margin-top: 5px;
+    margin-top: 10px;
 }
