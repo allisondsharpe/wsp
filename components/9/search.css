@@ -32,7 +32,7 @@ button {
 }
 
 /* a & "drop down two" id elements */
-a, #dropDownTwo {
+a, a:first-of-type(2) {
     color: #000;
     margin-left: 15px;
     margin-top: 25px;
@@ -40,7 +40,7 @@ a, #dropDownTwo {
 }
 
 /* navigational class of "arrow" elements */
-nav .arrow {
+li span {
     font-size: 0.7em;
     margin-left: 10px;
 }

@@ -13,8 +13,28 @@ h1 {
     margin-bottom: 5px;
 }
 
-/* navigational elements */
-nav {
+/* article elements */
+article {
     margin-top: 10px;
     margin-bottom: 20px;
+    display: inline-block;
 }
+
+/* article paragraph elements */
+article p {
+    width: 30%;
+}
+
+/* article image elements */
+article > img {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #000;
+    border-radius: 200px;
+}
+
+/* figure image elements */
+figure img {
+    width: 20px;
+}
+

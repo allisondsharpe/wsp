@@ -5,32 +5,92 @@ COMPONENT STYLESHEET
 
 /* section elements */
 section {
-    border-top: 1px solid #666;
     padding: 20px;
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
+    background: #eee;
+    overflow: hidden;
+}
+
+/* header elements */
+header {
+    border-bottom: 1px solid #666;
+    margin-bottom: 20px;
+    margin-right: 82px;
 }
 
 /* article elements */
 article {
     width: 650px;
-    display: inline-block;
+    float: left;
+}
+
+/* header direct h1 elements */
+header > h1 {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #666;
+    font-size: 1.2em;
+    margin-top: -10px;
+}
+
+/* article direct h1 elements */
+article > h1 {
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #666;
+    font-size: 1.3em;
+    margin-top: 420px;
+    margin-bottom: 20px;
 }
 
 /* h1, paragraph, and unordered list elements */
 h1, p, ul {
     margin-bottom: 10px;
+    clear: left;
 }
 
 /* paragraph elements */
 p {
-    width: 50%;
+    width: 70%;
+    float: left;
+    font-family: sans-serif;
+    color: #666;
+    font-weight: 100;
 }
 
-/* image elements */
-img, li {
+/* figure image elements */
+figure img {
+    float: left;
     display: block;
-    margin-bottom: 10px;
 }
 
+/* unordered list elements */
+ul {
+    float: right;
+    display: block;
+    margin-right: 100px;
+    margin-top: -150px;
+}
 
+/* list item elements */
+li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+/* list item, first child & list item, second child elements */
+li:nth-child(1), li:nth-child(2) {
+    border-bottom: 1px solid #666;
+    padding-bottom: 15px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/* list item a elements */
+li > a {
+    color: blue;
+}
 

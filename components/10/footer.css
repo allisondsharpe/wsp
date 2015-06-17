@@ -3,14 +3,97 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+/* footer elements */
+footer {
+    background: #333;
+    overflow: hidden;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
 /* h1 elements */
 h1 {
     margin-top: 10px;
     margin-bottom: 5px;
+    color: #4685ff;
+    font-size: 1.1em;
 }
 
 /* paragraph elements */
 p {
     margin-bottom: 10px;
     margin-top: 20px;
+    color: #eee;
+}
+
+/* section elements */
+section {
+    float: left;
+    clear: left;
+}
+
+/* article elements */
+article {
+    float: left;
+    width: 240px;
+    margin: 25px 55px 25px 52px;
+}
+
+/* article paragraph elements */
+article p {
+    width: 280px;
+}
+
+/* a elements */
+a {
+    color: #eee;
+}
+
+/* list item elements */
+li {
+    list-style-type: circle;
+    color: #4685ff;
+    margin-top: 20px;
+}
+
+/* navigational elements */
+nav {
+    clear: left;
+    background: #666;
+    padding: 15px 0px 15px 48px;
+    margin-bottom: 20px;
+}
+
+/* navigational a elements */
+nav a {
+    margin-right: 20px;
+}
+
+/* figure paragraph elements */
+figure p {
+    display: inline-block;
+    margin: 0px -40px 40px 48px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #666;
+}
+
+/* figure paragraph nth-child elements (2n+1 targets odd numbers from 1,3,5,7,etc..) */
+figure p:nth-child(2n+1) {
+    border-right: 1px solid #666;
+    padding-right: 10px;
+}
+
+/* figure a elements */
+figure a {
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #eee;
+}
+
+/* figure image elements */
+figure img {
+    width: 35px;
+    float: right;
+    padding-right: 10px;
 }

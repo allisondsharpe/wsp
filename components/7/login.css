@@ -3,22 +3,32 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* "sign in form" id elements */
-#signInForm {
+/* sign in form nth-child elements */
+form:nth-child(1) {
     padding-left: 30px;
     padding-right: -700px;
-    border-right: 1px solid #000;
+    border-right: 1px solid #eee;
+    box-shadow: 2px 0px 0px 0px lightgray;
     float: left;
+    width: 700px;
 }
 
-/* register form elements */
-#registerForm {
-    padding-left: 30px;
+/* register form nth-child elements */
+form:nth-child(2) {
     float: left;
+    padding-left: 180px;
+    text-align: center;
+    margin-top: 80px;
 }
 
-/* "sign in form" id direct paragraph elements */
-#signInForm > p {
+/* register form nth-child direct paragraph elements */
+form:nth-child(2) > p {
+    width: 250px;
+    margin-left: 3px;
+}
+
+/* form direct paragraph elements */
+form > p {
     width: 55%;
     margin-left: 25px;
     margin-bottom: -15px;
@@ -26,40 +36,72 @@ COMPONENT STYLESHEET
 
 /* h1 elements */
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     margin-top: 10px;
     font-size: 1.2em;
     font-weight: bold;
 }
 
-/* "user" & "pass" id elements */
-#user, #pass {
+/* inputs for username & password nth-child numbers three & five elements */
+input:nth-child(3), input:nth-child(5) {
     width: 350px;
     height: 30px;
-    border: 1px solid #000;
+    border: 1px solid #eee;
 }
 
-/* label, input, paragraph, "forgot" id, & button elements */
-label, input, #signInForm > p, #forgot, button {
+/* input hover elements */
+input:hover {
+    border: 1px solid #666;
+}
+
+/* label, input, form direct paragraph, & form direct a elements */
+label, input, form > p, form > a {
     float: left;
     clear: left;
     margin-bottom: 5px;
+    font-family: serif;
+    font-size: 1.0em;
 }
 
-/* "forgot" id elements */
-#forgot {
+/* form a elements */
+form > a {
     text-decoration: underline;
-    margin-bottom: 10px;
+    margin: 5px 0px 10px 0px;
 }
 
-/* "signed in label elements */
-#signedInLabel {
+/* label for "stay signed in" nth-child 2n+1 elements (tracks odd numbers from 1,3,5,7,etc..) */
+label:nth-child(2n+1) {
     margin-left: 25px;
-    margin-bottom: -15px;
+    margin-bottom: -16px;
+    font-size: 1.1em;
+    font-weight: 500;
 }
 
-/* sign in id elements */
-#signin {
+/* button elements */
+button {
+    float: left;
+    clear: left;
+    font-family: serif;
+    font-size: 0.9em;
+}
+
+/* register button nth-child 2n+1 elements (tracks odd numbers from 1,3,5,7,etc..) */
+button:nth-child(2n+1) {
     display: block;
     margin-top: 10px;
+    margin-left: 90px;
+    background: #4492ff;
+    border: 1px solid #4492ff;
+    border-radius: 2em 2em;
+    color: #fff;
+}
+
+/* sign in button nth-child 2n+0 elements (tracks even numbers from 2,4,6,8,etc..) */
+button:nth-child(2n+0) {
+    display: block;
+    margin-top: 20px;
+    background: #112ba5;
+    border: 1px solid #112ba5;
+    border-radius: 2em 2em;
+    color: #fff;
 }
