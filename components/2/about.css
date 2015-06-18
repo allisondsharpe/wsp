@@ -3,15 +3,18 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+/* header direct image elements */
 header > img {
     float: left;
     padding: 20px;
 }
 
+/* header direct h1 elements */
 header > h1 {
     padding: 20px;
 }
 
+/* header paragraph elements */
 header > p {
     width: 80%;
     float: left;
@@ -22,24 +25,26 @@ h1, nav, section {
     margin-bottom: 10px;
 }
 
+/* article elements */
 article {
     clear: left;
-}
-
-nav {
-    display: inline-block;
-    margin-left: 300px;
-}
-
-/* navigational a elements */
-nav a {
-    color: #000;
 }
 
 /* span elements */
 span {
     font-size: 0.7em;
     line-height: 0%;
+}
+
+/* navigational elements */
+nav {
+    margin-left: 300px;
+    float: left;
+}
+
+/* navigational a elements */
+nav a {
+    color: #000;
 }
 
 /* navigational, direct unordered list, & direct list items */
@@ -51,32 +56,37 @@ nav > ul > li {
     font-size: 1.0em;
 }
 
-/* navigational list item hover & "sub-menu" class elements */
-nav li:hover .sub-menu {
-    z-index: 1;
-    opacity: 1;
-}
-
-/* "sub-menu" class elements */
-.sub-menu {
-    width: 100%;
-    padding: 5px;
-    opacity: 0;
-}
-
-/* "sub-menu" class list item elements */
-.sub-menu li {
+/* list item elements */
+nav li {
     display: block;
-    font-size: 0.8em;
+    float: left;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
 }
 
-/* "sub-menu" class list items & a elements */
-.sub-menu li a {
-    padding: 10px 20px;
+/* navigational list item a elements */
+nav li a {
+    color: #000;
     display: block;
+    width: 100px;
 }
 
-/* "sub-menu" class list items & a hover elements */
-.sub-menu li a:hover {
+/* navigational direct unordered list direct list items direct 'sub' unordered list direct 'sub' list items hover & a hover elements */
+nav > ul > li > ul > li:hover, nav > ul > li > ul > a:hover { /* only hovers over the list items and not the h1 */
     background: #eee;
+}
+
+/* unordered list direct list item direct 'sub' unordered list elements */
+ul > li > ul {
+    visibility: hidden;  /* keeps list items hidden until hovered over */
+    position: absolute;
+    transition: visibility 0.65s ease-in;
+    left: 0;
+    padding-top: 10px;
+}
+
+/* unordered list items hover direct unordered list & list items unordered list hover elements */
+ul li:hover > ul, li ul:hover {
+    visibility: visible; /* makes list items visible when hovered over */
 }

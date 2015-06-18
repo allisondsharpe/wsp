@@ -3,38 +3,76 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* header elements */
-header {
-    margin-bottom: 20px;
+/* header direct h1 elements */
+header > h1 {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 10px;
 }
 
-/* h1 elements */
-h1 {
-    margin-bottom: 5px;
+/* header elements */
+header, article {
+    margin: 20px 0px 30px 20px;
+    font-family: sans-serif;
 }
+
+/* header direct paragraph elements */
+header > p {
+    font-weight: 100;
+}
+
+
+/*********************** BEGINNING ARTICLE ELEMENTS *************************/
+
 
 /* article elements */
 article {
-    margin-top: 10px;
-    margin-bottom: 20px;
     display: inline-block;
-}
-
-/* article paragraph elements */
-article p {
-    width: 30%;
+    margin: 30px 100px 20px 50px;
 }
 
 /* article image elements */
 article > img {
-    width: 130px;
+    width: 135px;
     height: 130px;
     border: 1px solid #000;
     border-radius: 200px;
+    float: left;
 }
+
+/* h1 elements */
+article > h1 {
+    margin: 20px 0px 80px 150px;
+    font-size: 1.2em;
+    color: #666;
+    font-weight: 400;
+}
+
+/* article paragraph elements */
+article p {
+    width: 385px;
+    font-weight: 100;
+    margin: -70px 0px 100px 150px;
+}
+
+/* article direct paragraph nth-of-type number one elements */
+article > p:nth-of-type(1) { /* targets first paragraph in article elements */
+    color: lightgray;
+}
+
+/* article nth-of-type number one direct paragraph nth-of-type number one elements */
+article:nth-of-type(1) > p:nth-of-type(1) { /* targets only first paragraph of first article element */
+    text-transform: uppercase;
+}
+
+
+/*********************** ENDING ARTICLE ELEMENTS *************************/
+
 
 /* figure image elements */
 figure img {
     width: 20px;
+    float: left;
+    margin: -110px 0px 100px 3px;
 }
 
