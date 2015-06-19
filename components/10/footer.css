@@ -26,6 +26,11 @@ p {
     color: #eee;
 }
 
+/* article paragraph elements */
+article p {
+    width: 280px;
+}
+
 /* article, navigational nth-of-type number one, & navigational nth-of-type number two elements */
 article, nav:nth-of-type(1), nav:nth-of-type(2) {
     float: left;
@@ -33,40 +38,42 @@ article, nav:nth-of-type(1), nav:nth-of-type(2) {
     margin: 27px 57px 25px 60px;
 }
 
-/* article paragraph elements */
-article p {
-    width: 280px;
-}
-
 /* navigational nth-of-type number one and navigational nth-of-type number two elements */
 nav:nth-of-type(1), nav:nth-of-type(2) {
-    margin: 30px 0px 0px 100px;
+    margin: 30px 0px 200px 100px;
+}
+
+/* navigational nth-of-type number one list items and navigational nth-of-type number two list item elements */
+nav:nth-of-type(1) li, nav:nth-of-type(2) li {
+    list-style-type: circle;
+    color: #377cff;
+    margin-top: 20px;
 }
 
 /* navigational nth-of-type number three elements */
 nav:nth-of-type(3) {
     clear: left;
     background: #424242;
-    padding: 20px;
+    padding: 25px;
+    margin-top: 30px;
 }
 
 /* navigational nth-of-type number three a elements */
-nav:nth-of-type(3) a { /* targets all a elements in the third navigational tag */
-    margin-right: 10px;
+nav:nth-of-type(3) li { /* targets all a elements in the third navigational tag */
+    margin: 0px 10px 0px 0px;
     padding-left: 40px;
     font-weight: 100;
+    display: inline-block;
+}
+
+/* unordered list items */
+ul {
+    margin-bottom: 10px;
 }
 
 /* a elements */
 a {
     color: #eee;
-}
-
-/* list item elements */
-li {
-    list-style-type: circle;
-    color: #377cff;
-    margin-top: 20px;
 }
 
 /* footer nth-of-type number two elements */

@@ -24,7 +24,6 @@ header > p {
 
 /*********************** BEGINNING ARTICLE ELEMENTS *************************/
 
-
 /* article elements */
 article {
     display: inline-block;
@@ -46,6 +45,9 @@ article > h1 {
     font-size: 1.2em;
     color: #666;
     font-weight: 400;
+    border-top: 1px solid #666; /* adds border on top of h1 */
+    padding-top: 20px;
+    width: 110px;
 }
 
 /* article paragraph elements */

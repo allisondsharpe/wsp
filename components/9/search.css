@@ -30,16 +30,19 @@ button {
     margin-top: 12px;
     padding: 7px;
     float: left;
-    background: #112ba5;
+    background: #2851a5;
     color: #fff;
     border-radius: 0.5em;
-    border: 1px solid #112ba5;
+    border: 1px solid #2851a5;
+    width: 80px;
+    font-size: 0.8em;
 }
 
 /* span elements */
 span {
     font-size: 0.7em;
     line-height: 0%;
+    padding-left: 10px;
 }
 
 /* list item elements */
@@ -75,6 +78,7 @@ ul > li > ul {
 /* unordered list items hover direct unordered list & list items unordered list hover elements */
 ul li:hover > ul, li ul:hover {
     visibility: visible; /* makes list items visible when hovered over */
+    background: #fff;
 }
 
 /* navigational nth-of-type number one direct unordered list direct list item elements */

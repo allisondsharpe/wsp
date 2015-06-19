@@ -8,21 +8,12 @@ body {
     background: #fff;
 }
 
-/* unordered list list item elements */
-ul li {
-    float: left;
-    margin: 0px 0px 0px 30px;
-}
-
 /* navigational elements */
 nav:nth-of-type(1) {
-    margin: 10px 50px 0px 50px;
+    margin: 10px 40px 0px 40px;
     background: #197f62;
-}
-
-/* navigational span elements */
-nav span {
-    font-size: 0.7em;
+    display: inline-block;
+    width: 1320px;
 }
 
 /* navigational unordered list items hover & direct a elements */
@@ -30,29 +21,21 @@ nav ul li:hover > a {
     text-decoration: none;
     background: #fff;
     color: #000;
-    height: 55px;
+    height: 60px;
 }
 
-/* navigational image elements */
-nav:nth-of-type(1) img {
-    width: 50px;
-    height: 50px;
-    margin: 0px 10px 0px 400px;
+/* navigational span elements */
+nav span {
+    font-size: 0.7em;
 }
 
-/* navigational tag direct image nth-of-type number one */
-nav:nth-of-type(1) > img:nth-of-type(1) { /* targets the third image in the navigational tag */
-    margin-right: -425px;
-}
-
-/* navigational tag direct image nth-of-type number three */
-nav:nth-of-type(1) > img:nth-of-type(3) { /* targets the third image in the navigational tag */
-    margin-left: -33px;
+/* unordered list list item elements */
+ul li {
+    float: left;
 }
 
 /* list elements */
 li {
-    float: left;
     position: relative;
     font-size: 1.0em;
 }
@@ -61,57 +44,81 @@ li {
 /****** BEGINNING DROP DOWN MENU ELEMENTS *******/
 
 
-/* navigational list item hover for "drop down" id elements */
-nav:nth-of-type(1) li:hover ul > li > ul {
-    z-index: 1;
-    opacity: 1;
-}
-
-/* "drop down" id elements */
-ul > li > ul  {
-    width: 100%;
-    padding: 5px;
-    opacity: 0;
-    position: absolute;
-    display: block;
-}
-
-/* "drop down" id list item & a elements */
-ul > li > ul li, ul a {
+/* unordered list under a element's list items & navigational nth-of-type number one a elements */
+nav:nth-of-type(1) a, a + ul { /* targets navigational links */
     display: block;
     font-size: 1.0em;
     padding: 20px;
     color: #fff;
 }
 
-/* "drop down" id a elements */
-ul > li > ul a {
+/* unordered list under neath a element */
+a + ul { /* targets drop down menu under "services" */
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    display: block;
+}
+
+/* unordered list under a & a elements */
+a + ul a{ /* targets drop down menu's list items */
     color: #000;
+    width: 150px;
+    margin-left: -20px;
 }
 
 
 /****** ENDING DROP DOWN MENU ELEMENTS *******/
 
+
+/****** BEGINNING NAVIGATION IMAGE ELEMENTS *******/
+
+
+/* navigational nth-of-type number two elements */
+nav:nth-of-type(2) { /* targets the second navigational elements */
+    margin: -60px 50px 0px 0px;
+}
+
+/* navigational nth-of-type number two image elements */
+nav:nth-of-type(2) img { /* targets the images within the second navigational tag */
+    width: 60px;
+    height: 60px;
+    float: right;
+    position: relative;
+    margin-left: -25px;
+}
+
+
+/****** ENDING NAVIGATION IMAGE ELEMENTS *******/
+
+
 /* figure & figure image elements */
-figure, figure img {
+figure, figure img { /* targets the figure image */
     width: 150px;
     height: 75px;
     clear: both;
-    margin: 10px 0px 0px 40px;
+    margin: 20px 0px 0px 40px;
 }
 
 /* input elements */
 input {
-    margin-right: 700px;
+    margin: -65px 150px 0px 0px;
     border: 1px solid #000;
     width: 300px;
     height: 25px;
+}
+
+/* form & navigational elements under form elements */
+form, form + nav { /* targets the form as well as the bottom navigational elements */
     float: right;
+    margin: -25px 70px 0px 830px;
 }
 
-/* form image elements */
-nav:nth-of-type(2) img {
-    width: 20px;
-    height: 20px;
+/* navigational image elements under form elements */
+form + nav img { /* targets bottom navigational images */
+    width: 30px;
+    height: 25px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: -5px;
 }
-
