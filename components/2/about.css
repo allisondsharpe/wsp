@@ -3,6 +3,11 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+/* section elements */
+section {
+    font-family: sans-serif;
+}
+
 /* header direct image elements */
 header > img {
     float: left;
@@ -16,24 +21,42 @@ header > h1 {
 
 /* header paragraph elements */
 header > p {
-    width: 80%;
+    width: 1200px;
     float: left;
 }
 
+/* figure elements */
+figure {
+    margin: 150px 0px 0px 170px;
+}
+
 /* h1, navigational, & section elements */
-h1, nav, section {
+h1, nav {
     margin-bottom: 10px;
 }
 
 /* article elements */
 article {
     clear: left;
+    margin: 100px 0px 90px 170px;
+}
+
+/* article direct h1 elements */
+article > h1 {
+    margin-bottom: 20px;
+}
+
+/* article list item elements */
+article li {
+    margin-bottom: 5px;
 }
 
 /* span elements */
 span {
     font-size: 0.7em;
     line-height: 0%;
+    padding-left: 30px;
+    color: #fff;
 }
 
 /* navigational elements */
@@ -54,6 +77,21 @@ nav > ul > li {
     display: inline-block;
     position: relative;
     font-size: 1.0em;
+    margin: -150px -200px 90px 150px;
+}
+
+/* navigational direct unordered list direct list items direct h1 elements */
+nav > ul > li > h1 {
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+/* navigational direct unordered list direct list items direct a elements */
+nav > ul > li > a {
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 0.5em;
 }
 
 /* list item elements */
@@ -63,13 +101,14 @@ nav li {
     padding: 10px;
     position: relative;
     text-decoration: none;
+    margin-left: 20px;
 }
 
 /* navigational list item a elements */
 nav li a {
     color: #000;
     display: block;
-    width: 100px;
+    width: 200px;
 }
 
 /* navigational direct unordered list direct list items direct 'sub' unordered list direct 'sub' list items hover & a hover elements */

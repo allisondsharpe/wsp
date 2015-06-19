@@ -15,7 +15,7 @@ footer {
 h1 {
     margin-top: 10px;
     margin-bottom: 5px;
-    color: #4685ff;
+    color: #377cff;
     font-size: 1.1em;
 }
 
@@ -26,22 +26,35 @@ p {
     color: #eee;
 }
 
-/* section elements */
-section {
+/* article, navigational nth-of-type number one, & navigational nth-of-type number two elements */
+article, nav:nth-of-type(1), nav:nth-of-type(2) {
     float: left;
-    clear: left;
-}
-
-/* article elements */
-article {
-    float: left;
-    width: 240px;
-    margin: 25px 55px 25px 52px;
+    width: 225px;
+    margin: 27px 57px 25px 60px;
 }
 
 /* article paragraph elements */
 article p {
     width: 280px;
+}
+
+/* navigational nth-of-type number one and navigational nth-of-type number two elements */
+nav:nth-of-type(1), nav:nth-of-type(2) {
+    margin: 30px 0px 0px 100px;
+}
+
+/* navigational nth-of-type number three elements */
+nav:nth-of-type(3) {
+    clear: left;
+    background: #424242;
+    padding: 20px;
+}
+
+/* navigational nth-of-type number three a elements */
+nav:nth-of-type(3) a { /* targets all a elements in the third navigational tag */
+    margin-right: 10px;
+    padding-left: 40px;
+    font-weight: 100;
 }
 
 /* a elements */
@@ -52,48 +65,41 @@ a {
 /* list item elements */
 li {
     list-style-type: circle;
-    color: #4685ff;
+    color: #377cff;
     margin-top: 20px;
 }
 
-/* navigational elements */
-nav {
-    clear: left;
-    background: #666;
-    padding: 15px 0px 15px 48px;
-    margin-bottom: 20px;
+/* footer nth-of-type number two elements */
+footer:nth-of-type(2) {
+    margin-top: -20px;
 }
 
-/* navigational a elements */
-nav a {
-    margin-right: 20px;
-}
-
-/* figure paragraph elements */
-figure p {
+/* footer nth-of-type number two paragraph elements */
+footer:nth-of-type(2) p { /* targets the paragraph elements within the second footer tag */
     display: inline-block;
-    margin: 0px -40px 40px 48px;
+    margin: 20px -40px 40px 48px;
     font-family: sans-serif;
     font-weight: 100;
     color: #666;
 }
 
-/* figure paragraph nth-child elements (2n+1 targets odd numbers from 1,3,5,7,etc..) */
-figure p:nth-child(2n+1) {
+/* footer nth-of-type number two direct paragraph nth-child number one elements */
+footer:nth-of-type(2) > p:nth-child(1) { /* targets the first paragraph element within the second footer tag */
     border-right: 1px solid #666;
     padding-right: 10px;
 }
 
-/* figure a elements */
-figure a {
+/* footer nth-of-type number two a elements */
+footer:nth-of-type(2) a { /* targets all a elements in the second footer tag */
     font-weight: 600;
     font-family: sans-serif;
     color: #eee;
 }
 
-/* figure image elements */
-figure img {
+/* footer image elements */
+footer img {
     width: 35px;
     float: right;
     padding-right: 10px;
+    margin-top: 20px;
 }

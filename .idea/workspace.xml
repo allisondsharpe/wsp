@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4599ef6f-62ec-47cb-9c2b-094292b7b3f8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/images/email.png" afterPath="$PROJECT_DIR$/components/1/images/email.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/images/header-logo.png" afterPath="$PROJECT_DIR$/components/1/images/header-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/images/location.png" afterPath="$PROJECT_DIR$/components/1/images/location.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/images/phone.png" afterPath="$PROJECT_DIR$/components/1/images/phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/6/images/section-divider.png" afterPath="$PROJECT_DIR$/components/6/images/section-divider.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/2/about.css" afterPath="$PROJECT_DIR$/components/2/about.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/2/about.html" afterPath="$PROJECT_DIR$/components/2/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/6/contact.css" afterPath="$PROJECT_DIR$/components/6/contact.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/6/contact.html" afterPath="$PROJECT_DIR$/components/6/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/9/search.css" afterPath="$PROJECT_DIR$/components/9/search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/9/search.html" afterPath="$PROJECT_DIR$/components/9/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/5/team.css" afterPath="$PROJECT_DIR$/components/5/team.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/5/team.html" afterPath="$PROJECT_DIR$/components/5/team.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/10/footer.css" afterPath="$PROJECT_DIR$/components/10/footer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/10/footer.html" afterPath="$PROJECT_DIR$/components/10/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/header.css" afterPath="$PROJECT_DIR$/components/1/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/header.html" afterPath="$PROJECT_DIR$/components/1/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wsp.iws" />
@@ -31,41 +36,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/2/about.html">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/1/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1096433">
-              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+            <state vertical-scroll-proportion="-15.041667">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/2/about.css">
+      <file leaf-file-name="header.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/1/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/9/search.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/9/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.166666">
-              <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.6722151">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -95,26 +80,26 @@
         <option value="$PROJECT_DIR$/../test/test.css" />
         <option value="$PROJECT_DIR$/../test/test.html" />
         <option value="$PROJECT_DIR$/components/1/test.html" />
-        <option value="$PROJECT_DIR$/components/1/header.css" />
         <option value="$PROJECT_DIR$/components/3/cta.html" />
         <option value="$PROJECT_DIR$/components/3/cta.css" />
         <option value="$PROJECT_DIR$/components/4/features.html" />
         <option value="$PROJECT_DIR$/components/4/features.css" />
-        <option value="$PROJECT_DIR$/components/1/header.html" />
         <option value="$PROJECT_DIR$/components/8/navigation.html" />
         <option value="$PROJECT_DIR$/components/8/navigation.css" />
         <option value="$PROJECT_DIR$/components/7/login.html" />
         <option value="$PROJECT_DIR$/components/7/login.css" />
-        <option value="$PROJECT_DIR$/components/10/footer.html" />
-        <option value="$PROJECT_DIR$/components/10/footer.css" />
-        <option value="$PROJECT_DIR$/components/6/contact.html" />
-        <option value="$PROJECT_DIR$/components/6/contact.css" />
         <option value="$PROJECT_DIR$/components/5/team.html" />
         <option value="$PROJECT_DIR$/components/5/team.css" />
         <option value="$PROJECT_DIR$/components/9/search.html" />
         <option value="$PROJECT_DIR$/components/9/search.css" />
         <option value="$PROJECT_DIR$/components/2/about.html" />
         <option value="$PROJECT_DIR$/components/2/about.css" />
+        <option value="$PROJECT_DIR$/components/10/footer.html" />
+        <option value="$PROJECT_DIR$/components/6/contact.html" />
+        <option value="$PROJECT_DIR$/components/6/contact.css" />
+        <option value="$PROJECT_DIR$/components/1/header.html" />
+        <option value="$PROJECT_DIR$/components/1/header.css" />
+        <option value="$PROJECT_DIR$/components/10/footer.css" />
       </list>
     </option>
   </component>
@@ -200,61 +185,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2" />
+              <option name="myItemId" value="1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,22 +319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/1/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/1/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.125">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/4/features.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61459666">
@@ -476,38 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/10/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.958333">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/10/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/6/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/6/contact.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/5/team.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.875">
@@ -524,6 +407,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/2/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.666667">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/2/about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/9/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/9/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.166666">
@@ -532,26 +439,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/9/search.css">
+    <entry file="file://$PROJECT_DIR$/components/6/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state vertical-scroll-proportion="-25.0">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/2/about.css">
+    <entry file="file://$PROJECT_DIR$/components/6/contact.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+          <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/2/about.html">
+    <entry file="file://$PROJECT_DIR$/components/10/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1096433">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        <state vertical-scroll-proportion="-9.041667">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/10/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/1/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.041667">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/1/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6722151">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding />
         </state>
       </provider>
