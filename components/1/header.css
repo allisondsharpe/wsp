@@ -38,6 +38,7 @@ ul li {
 li {
     position: relative;
     font-size: 1.0em;
+    padding-left: 20px;
 }
 
 
@@ -76,14 +77,14 @@ a + ul a{ /* targets drop down menu's list items */
 
 /* navigational nth-of-type number two elements */
 nav:nth-of-type(2) { /* targets the second navigational elements */
-    margin: -60px 50px 0px 0px;
+    margin: -60px 0px 0px 1230px;
 }
 
 /* navigational nth-of-type number two image elements */
 nav:nth-of-type(2) img { /* targets the images within the second navigational tag */
     width: 60px;
     height: 60px;
-    float: right;
+    float: left;
     position: relative;
     margin-left: -25px;
 }
@@ -102,16 +103,17 @@ figure, figure img { /* targets the figure image */
 
 /* input elements */
 input {
-    margin: -65px 150px 0px 0px;
+    margin: -35px 0px 0px 880px;
     border: 1px solid #000;
     width: 300px;
     height: 25px;
+    float: left;
 }
 
 /* form & navigational elements under form elements */
-form, form + nav { /* targets the form as well as the bottom navigational elements */
-    float: right;
-    margin: -25px 70px 0px 830px;
+form + nav { /* targets the form as well as the bottom navigational elements */
+    float: left;
+    margin: -30px 0px 0px 1200px;
 }
 
 /* navigational image elements under form elements */

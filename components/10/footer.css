@@ -60,7 +60,7 @@ nav:nth-of-type(3) {
 
 /* navigational nth-of-type number three a elements */
 nav:nth-of-type(3) li { /* targets all a elements in the third navigational tag */
-    margin: 0px 10px 0px 0px;
+    margin: 0px 10px 0px -8px;
     padding-left: 40px;
     font-weight: 100;
     display: inline-block;
@@ -84,7 +84,7 @@ footer:nth-of-type(2) {
 /* footer nth-of-type number two paragraph elements */
 footer:nth-of-type(2) p { /* targets the paragraph elements within the second footer tag */
     display: inline-block;
-    margin: 20px -40px 40px 48px;
+    margin: 20px -40px 40px 55px;
     font-family: sans-serif;
     font-weight: 100;
     color: #666;
