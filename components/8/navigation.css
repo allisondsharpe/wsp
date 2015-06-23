@@ -40,3 +40,19 @@ a:nth-child(3) {
     padding-left: 25px;
     border-left: 1px solid #666;
 }
+
+
+/****** RESPONSIVE MEDIA QUERIES ******/
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

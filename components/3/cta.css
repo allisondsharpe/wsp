@@ -12,8 +12,8 @@ aside {
     margin-top: 20px;
 }
 
-/* header direct paragraph, figure, paragraph, and figure elements */
-header > p, figure, ul, footer {
+/* header direct paragraph, h1, image after h1, paragraph, and figure elements */
+header > p, h1, h1 + img, ul, footer {
     padding-left: 30px;
 }
 
@@ -39,8 +39,8 @@ header img:nth-child(2) {
     margin-left: 300px;
 }
 
-/* figure direct h1 elements */
-figure > h1 {
+/* h1 elements */
+h1 {
     text-transform: uppercase;
     font-weight: 400;
     color: navy;
@@ -48,8 +48,8 @@ figure > h1 {
     font-family: sans-serif;
 }
 
-/* figure image elements */
-figure > img {
+/* image elements after h1 elements */
+h1 + img {
     width: 400px;
     height: 200px;
     margin-left: 420px;
@@ -90,4 +90,20 @@ footer > p {
     float: left;
     text-align: center;
     margin-top: 40px;
+}
+
+
+/****** RESPONSIVE MEDIA QUERIES ******/
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
 }

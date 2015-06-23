@@ -94,3 +94,19 @@ li > a {
     color: blue;
 }
 
+
+/****** RESPONSIVE MEDIA QUERIES ******/
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
+

@@ -19,15 +19,15 @@ header > h1 {
     padding: 20px;
     font-size: 1.2em;
     color: #666;
-    font-weight: 500;
-    width: 1150px;
+    font-weight: 100;
+    width: 96.875%; /* 1550px/16px */
 }
 
 /* header paragraph elements */
 header > p {
-    width: 1200px;
+    width: 81.25%; /* 1300px/16px */
     float: left;
-    margin-left: 168px;
+    margin-left: 12.125%; /* 194px/16px */
 }
 
 /* figure elements */
@@ -137,3 +137,20 @@ ul li:hover > ul, li ul:hover {
 
 
 /****** ENDING NAVIGATIONAL ELEMENTS ******/
+
+
+
+/****** RESPONSIVE MEDIA QUERIES ******/
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

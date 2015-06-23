@@ -6,14 +6,32 @@ COMPONENT STYLESHEET
 /* body elements */
 body {
     background: #fff;
+    width: 100%; /* 16px */
 }
 
 /* navigational elements */
 nav:nth-of-type(1) {
-    margin: 10px 40px 0px 40px;
+    margin: 10px 3.125% 0px 2.8125%; /* right: 50px/16px, left: 45px/16px */
     background: #197f62;
     display: inline-block;
-    width: 1320px;
+    width: 94.375%; /* 1510px/16px */
+}
+
+/* navigational direct unordered list direct list items nth-of-type number four elements */
+/*nav > ul > li:nth-of-type(4) { /* creats a drop down arrow */ /*
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    width: 0;
+    height: 0;
+}*/
+
+/* unordered list under a element's list items & navigational nth-of-type number one a elements */
+nav:nth-of-type(1) a, a + ul { /* targets navigational links */
+    display: block;
+    font-size: 1.0em;
+    padding: 20px;
+    color: #fff;
 }
 
 /* navigational unordered list items hover & direct a elements */
@@ -22,11 +40,6 @@ nav ul li:hover > a {
     background: #fff;
     color: #000;
     height: 60px;
-}
-
-/* navigational span elements */
-nav span {
-    font-size: 0.7em;
 }
 
 /* unordered list list item elements */
@@ -38,34 +51,36 @@ ul li {
 li {
     position: relative;
     font-size: 1.0em;
-    padding-left: 20px;
 }
 
 
 /****** BEGINNING DROP DOWN MENU ELEMENTS *******/
 
 
-/* unordered list under a element's list items & navigational nth-of-type number one a elements */
-nav:nth-of-type(1) a, a + ul { /* targets navigational links */
-    display: block;
-    font-size: 1.0em;
-    padding: 20px;
-    color: #fff;
-}
-
 /* unordered list under neath a element */
 a + ul { /* targets drop down menu under "services" */
-    width: 100%;
+    width: 100%; /* 16px */
     padding: 5px;
     position: absolute;
     display: block;
+    visibility: hidden;
 }
 
-/* unordered list under a & a elements */
-a + ul a{ /* targets drop down menu's list items */
-    color: #000;
-    width: 150px;
-    margin-left: -20px;
+/* Animation for drop down menu list items below */
+@keyframes drop-down-menu {
+    0%   {background-color: black;}
+    25%  {background-color: gray;}
+    50%  {background-color: lightgray;}
+    100% {background-color: darkgrey;}
+}
+
+/* list item nth-of-type number four hover unordered list items directly after a item elements */
+li:nth-of-type(4):hover a + ul {
+    width: 125%; /* 2000px/16px */
+    background-color: #666;
+    animation-name: drop-down-menu;
+    animation-duration: 4s;
+    visibility: visible;
 }
 
 
@@ -82,7 +97,7 @@ nav:nth-of-type(2) { /* targets the second navigational elements */
 
 /* navigational nth-of-type number two image elements */
 nav:nth-of-type(2) img { /* targets the images within the second navigational tag */
-    width: 60px;
+    width: 34.375%; /* 550px/16px */
     height: 60px;
     float: left;
     position: relative;
@@ -95,17 +110,17 @@ nav:nth-of-type(2) img { /* targets the images within the second navigational ta
 
 /* figure & figure image elements */
 figure, figure img { /* targets the figure image */
-    width: 150px;
+    width: 31.25%; /* 500px/16px */
     height: 75px;
     clear: both;
-    margin: 20px 0px 0px 40px;
+    margin: 20px 0px 0px 3.125%; /* 100px/16px */
 }
 
 /* input elements */
 input {
-    margin: -35px 0px 0px 880px;
+    margin: -35px 0px 0px 62.5%; /* 1000px/16px */
     border: 1px solid #000;
-    width: 300px;
+    width: 21.875%; /* 350px/16px */
     height: 25px;
     float: left;
 }
@@ -113,14 +128,30 @@ input {
 /* form & navigational elements under form elements */
 form + nav { /* targets the form as well as the bottom navigational elements */
     float: left;
-    margin: -30px 0px 0px 1200px;
+    margin: -30px 0px 0px 86.25%; /* 1380px/16px */
 }
 
 /* navigational image elements under form elements */
 form + nav img { /* targets bottom navigational images */
-    width: 30px;
+    width: 18.75%; /* 300px/16px */
     height: 25px;
     padding-right: 10px;
     display: inline-block;
     margin-top: -5px;
+}
+
+
+/****** RESPONSIVE MEDIA QUERIES ******/
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
 }
