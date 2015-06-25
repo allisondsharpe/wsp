@@ -3,6 +3,11 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+/* body elements */
+body {
+    width: 100%; /* 16px */
+}
+
 /* section elements */
 section {
     font-family: sans-serif;
@@ -11,12 +16,12 @@ section {
 /* header direct image elements */
 header > img {
     float: left;
-    padding: 20px;
+    padding: 20px 1.4375%; /* 23px/16px */
 }
 
 /* header direct h1 elements */
 header > h1 {
-    padding: 20px;
+    padding: 20px 1.4375%; /* 23px/16px */
     font-size: 1.2em;
     color: #666;
     font-weight: 100;
@@ -32,18 +37,19 @@ header > p {
 
 /* figure elements */
 figure {
-    margin: 150px 0px 0px 170px;
+    margin: 150px 0% 0px 12.125%; /* right: 194px/16px */
 }
 
-/* h1, navigational, & section elements */
-h1, nav {
+/* h1 elements */
+h1 {
     margin-bottom: 10px;
 }
 
 /* article elements */
 article {
     clear: left;
-    margin: 100px 0px 90px 170px;
+    margin: 100px 0% 90px 12.125%; /* right: 194px/16px */
+    float: left;
 }
 
 /* article direct h1 elements */
@@ -54,14 +60,6 @@ article > h1 {
 /* article list item elements */
 article li {
     margin-bottom: 5px;
-}
-
-/* span elements */
-span {
-    font-size: 0.7em;
-    line-height: 0%;
-    padding-left: 30px;
-    color: #fff;
 }
 
 /* a elements */
@@ -75,18 +73,37 @@ a {
 
 /* navigational elements */
 nav {
-    margin-left: 300px;
     float: left;
+    margin-top: 130px;
+}
+
+/* navigational span elements */
+nav span {
+    width: 0;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+/* list item elements */
+nav li {
+    display: block;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    margin-left: 9.375%; /* 150px/16px */
 }
 
 /* navigational tag direct unordered list's direct list items */
 nav > ul > li { /* targets the list items within the main ul */
-    padding: 10px 20px;
-    float: left;
-    display: inline-block;
     position: relative;
     font-size: 1.0em;
-    margin: -150px -200px 90px 150px;
+    margin: 0px 0% 0px 50%; /* right: 800px/16px */
 }
 
 /* navigational direct unordered list direct list items direct h1 elements */
@@ -98,22 +115,12 @@ nav > ul > li > h1 { /* targets the h1 within the main ul */
 /* navigational direct unordered list direct list items direct a elements */
 nav > ul > li > a { /* targets the a elements within the sub ul */
     background: #eee;
-    padding: 10px;
+    padding: 10px 3.125%; /* 50px/16px */
     border: 1px solid #eee;
     border-radius: 0.5em;
     color: #000;
     display: block;
-    width: 200px;
-}
-
-/* list item elements */
-nav li {
-    display: block;
-    float: left;
-    padding: 10px;
-    position: relative;
-    text-decoration: none;
-    margin-left: 20px;
+    width: 187.5%; /* 3000px/16px */
 }
 
 /* navigational direct unordered list direct list items direct 'sub' unordered list direct 'sub' list items hover elements */

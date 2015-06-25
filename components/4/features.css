@@ -3,10 +3,15 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+/* body elements */
+body {
+    width: 100%; /* 16px */
+}
+
 /* section elements */
 section {
-    padding: 20px;
-    margin: 20px;
+    padding: 20px 1.25%; /* 20px/16px */
+    margin: 1.25%; /* 20px/16px */
     background: #eee;
     overflow: hidden;
 }
@@ -15,12 +20,12 @@ section {
 header {
     border-bottom: 1px solid #666;
     margin-bottom: 20px;
-    margin-right: 82px;
+    margin-right: 5.125%; /* 82px/16px */
 }
 
 /* article elements */
 article {
-    width: 650px;
+    width: 50.0%; /* 8px */
     float: left;
 }
 
@@ -30,7 +35,6 @@ header > h1 {
     font-weight: 400;
     color: #666;
     font-size: 1.2em;
-    margin-top: -10px;
 }
 
 /* article direct h1 elements */
@@ -43,33 +47,24 @@ article > h1 {
     margin-bottom: 20px;
 }
 
-/* h1, paragraph, and unordered list elements */
-h1, p, ul {
-    margin-bottom: 10px;
-    clear: left;
+/* figure image elements */
+figure img {
+    float: left;
 }
 
 /* paragraph elements */
 p {
-    width: 70%;
-    float: left;
+    clear: left;
+    width: 71.25%; /* 570px/8px */
     font-family: sans-serif;
     color: #666;
     font-weight: 100;
-}
-
-/* figure image elements */
-figure img {
     float: left;
-    display: block;
 }
 
 /* unordered list elements */
 ul {
-    float: right;
-    display: block;
-    margin-right: 100px;
-    margin-top: -150px;
+    margin-right: 13.75%; /* 110px/16px */
 }
 
 /* list item elements */
@@ -79,19 +74,20 @@ li {
     text-align: center;
     font-weight: 500;
     font-family: sans-serif;
+    display: block;
 }
 
 /* list item, first child & list item, second child elements */
 li:nth-child(1), li:nth-child(2) {
     border-bottom: 1px solid #666;
     padding-bottom: 15px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: 87.5%; /* 1400px/16px */
 }
 
 /* list item a elements */
 li > a {
     color: blue;
+    margin-left: 87.3125%; /* 1397px/16px */
 }
 
 

@@ -9,26 +9,16 @@ body {
     width: 100%; /* 16px */
 }
 
-/* navigational elements */
+/* navigational nth-of-type number one elements */
 nav:nth-of-type(1) {
-    margin: 10px 3.125% 0px 2.8125%; /* right: 50px/16px, left: 45px/16px */
+    margin: 10px 0% 0px 2.8125%; /* right: 50px/16px, left: 45px/16px */
     background: #197f62;
-    display: inline-block;
     width: 94.375%; /* 1510px/16px */
+    float: left;
 }
 
-/* navigational direct unordered list direct list items nth-of-type number four elements */
-/*nav > ul > li:nth-of-type(4) { /* creats a drop down arrow */ /*
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #000;
-    width: 0;
-    height: 0;
-}*/
-
-/* unordered list under a element's list items & navigational nth-of-type number one a elements */
+/* navigational nth-of-type number one a & unordered list items directly under a elements */
 nav:nth-of-type(1) a, a + ul { /* targets navigational links */
-    display: block;
     font-size: 1.0em;
     padding: 20px;
     color: #fff;
@@ -39,28 +29,35 @@ nav ul li:hover > a {
     text-decoration: none;
     background: #fff;
     color: #000;
-    height: 60px;
+    height: 56px;
 }
 
 /* unordered list list item elements */
 ul li {
     float: left;
-}
-
-/* list elements */
-li {
     position: relative;
     font-size: 1.0em;
+    padding: 20px 0%;
 }
-
 
 /****** BEGINNING DROP DOWN MENU ELEMENTS *******/
 
+/* span elements */
+span {
+    width: 0;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+    position: absolute;
+}
 
 /* unordered list under neath a element */
 a + ul { /* targets drop down menu under "services" */
-    width: 100%; /* 16px */
-    padding: 5px;
+    padding: 5px 0.3125%; /* 5px/16px */
     position: absolute;
     display: block;
     visibility: hidden;
@@ -87,59 +84,46 @@ li:nth-of-type(4):hover a + ul {
 /****** ENDING DROP DOWN MENU ELEMENTS *******/
 
 
-/****** BEGINNING NAVIGATION IMAGE ELEMENTS *******/
-
-
-/* navigational nth-of-type number two elements */
-nav:nth-of-type(2) { /* targets the second navigational elements */
-    margin: -60px 0px 0px 1230px;
-}
-
-/* navigational nth-of-type number two image elements */
-nav:nth-of-type(2) img { /* targets the images within the second navigational tag */
-    width: 34.375%; /* 550px/16px */
+/* navigational nth-of-type number one image last of type elements */
+nav:nth-of-type(1) img:last-of-type { /* targets the bottom image elements in the first navigation tag */
     height: 60px;
     float: left;
-    position: relative;
-    margin-left: -25px;
+    margin-left: 150px;
 }
-
-
-/****** ENDING NAVIGATION IMAGE ELEMENTS *******/
-
 
 /* figure & figure image elements */
 figure, figure img { /* targets the figure image */
     width: 31.25%; /* 500px/16px */
     height: 75px;
     clear: both;
-    margin: 20px 0px 0px 3.125%; /* 100px/16px */
+    margin: 20px 0% 0px 3.125%; /* 100px/16px */
 }
 
 /* input elements */
 input {
-    margin: -35px 0px 0px 62.5%; /* 1000px/16px */
+    margin: 0px 0% 20px 62.5%; /* 1000px/16px */
     border: 1px solid #000;
     width: 21.875%; /* 350px/16px */
     height: 25px;
     float: left;
+    position: absolute;
 }
 
 /* form & navigational elements under form elements */
 form + nav { /* targets the form as well as the bottom navigational elements */
     float: left;
-    margin: -30px 0px 0px 86.25%; /* 1380px/16px */
+    margin: 0px 0% 0px 86.25%; /* 1380px/16px */
+    position: absolute;
 }
 
 /* navigational image elements under form elements */
 form + nav img { /* targets bottom navigational images */
     width: 18.75%; /* 300px/16px */
     height: 25px;
-    padding-right: 10px;
+    padding-right: 0.625%; /* 10px/16px */
     display: inline-block;
-    margin-top: -5px;
+    margin-bottom: 5px;
 }
-
 
 /****** RESPONSIVE MEDIA QUERIES ******/
 

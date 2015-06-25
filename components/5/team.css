@@ -3,6 +3,11 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+/* body elements */
+body {
+    width: 100%; /* 16px */
+}
+
 /* header direct h1 elements */
 header > h1 {
     font-weight: bold;
@@ -12,7 +17,7 @@ header > h1 {
 
 /* header elements */
 header, article {
-    margin: 20px 0px 30px 20px;
+    margin: 20px 0% 0px 1.25%; /* 20px/16px */
     font-family: sans-serif;
 }
 
@@ -24,15 +29,16 @@ header > p {
 
 /*********************** BEGINNING ARTICLE ELEMENTS *************************/
 
+
 /* article elements */
 article {
     display: inline-block;
-    margin: 30px 100px 20px 50px;
+    margin: 50px 7.5% 0px 3.4375%; /* left: 120px/16px, right: 55px/16px */
 }
 
 /* article image elements */
 article > img {
-    width: 135px;
+    width: 25%; /* 400px/16px */
     height: 130px;
     border: 1px solid #000;
     border-radius: 200px;
@@ -41,20 +47,26 @@ article > img {
 
 /* h1 elements */
 article > h1 {
-    margin: 20px 0px 80px 150px;
+    margin: 20px 0% 5px 27.8125%; /* 445px/16px */
     font-size: 1.2em;
     color: #666;
     font-weight: 400;
     border-top: 1px solid #666; /* adds border on top of h1 */
     padding-top: 20px;
-    width: 110px;
+    width: 23.75%; /* 380px/16px */
 }
 
-/* article paragraph elements */
-article p {
+/* article paragraph nth-of-type number one elements */
+article > p:nth-of-type(1) {
+    font-weight: 100;
+    margin-left: 28.125%; /* 450px/16px */
+}
+
+/* article paragraph nth-of-type number two elements */
+article > p:nth-of-type(2) {
     width: 385px;
     font-weight: 100;
-    margin: -70px 0px 100px 150px;
+    margin: 20px 0% 0px 28.125%; /* 450px/16px */
 }
 
 /* article direct paragraph nth-of-type number one elements */
@@ -71,11 +83,16 @@ article:nth-of-type(1) > p:nth-of-type(1) { /* targets only first paragraph of f
 /*********************** ENDING ARTICLE ELEMENTS *************************/
 
 
+/* figure elements */
+figure {
+    clear: left;
+}
+
 /* figure image elements */
 figure img {
-    width: 20px;
     float: left;
-    margin: -110px 0px 100px 3px;
+    margin-left: 0.3125%; /* 5px/16px */
+    width: 20px;
 }
 
 

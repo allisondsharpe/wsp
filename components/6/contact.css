@@ -7,13 +7,14 @@ COMPONENT STYLESHEET
 body {
     background: #f6f6f6;
     font-family: sans-serif;
+    width: 100%; /* 16px */
 }
 
 /* header elements */
 header {
-    margin: 0px 80px 10px 40px;
+    margin: 0px 5% 10px 3.125%; /* 80px/16px, 50px/16px */
     border-bottom: 3px solid #666;
-    padding: 20px 0px 5px 20px;
+    padding: 20px 0% 5px 0.125%; /* 2px/16px */
 }
 
 /* h1 elements */
@@ -21,22 +22,21 @@ h1 {
     font-weight: 600;
     font-size: 1.1em;
     color: #666;
-    margin-left: -20px;
 }
 
 /* h2 element directly under figure element */
 figure + h2 { /* targets first h2 element */
-    margin: 33px 0px 0px 100px;
+    margin: 33px 0% 0px 7.1875%; /* 115px/16px */
 }
 
 /* h2 element direct under figure element */
 nav + h2 { /* targets second h2 element */
-    margin: 48px 0px 0px 100px;
+    margin: 48px 0% 0px 7.1875%; /* 115px/16px */
 }
 
 /* figure elements */
 figure {
-    margin-left: 25px;
+    margin-left: 1.875%; /* 30px/16px */
     float: left;
 }
 
@@ -53,7 +53,7 @@ figure img {
 /* navigational nth-of-type number one elements */
 nav:nth-of-type(1) { /* targets first navigational tag */
     background: #fff;
-    margin: 20px 78px 0px 100px;
+    margin: 20px 4.875% 0px 7.1875%; /* 78px/16px, 115px/16px */
     border: 1px solid lightgray;
     box-shadow: 5px 5px 0px 0px #eee;
     height: 210px;
@@ -65,45 +65,60 @@ nav:nth-of-type(1) a {
 }
 
 
-/******** BUYING ELEMENTS ********/
+/****** NAVIGATIONAL ONE ELEMENTS ******/
+
+
+/****** BUYING ELEMENTS ******/
 
 
 /* navigational nth-of-type number one image nth-of-type number one elements */
-nav:nth-of-type(1) img:nth-of-type(1) { /* targets purchase image elements */
-    margin: 25px 0px 0px 150px;
+nav:nth-of-type(1) img:nth-of-type(1) {
+    margin-left: 14.375%; /* 230px/16px */
+    margin-top: 40px;
+    position: absolute;
 }
 
 /* navigational nth-of-type number one h3 nth-of-type number one elements */
-nav:nth-of-type(1) h3:nth-of-type(1) { /* targets purchase h3 elements */
-    margin: 80px 0px 0px 163px;
+nav:nth-of-type(1) h3:nth-of-type(1) {
+    margin-left: 15.3125%; /* 245px/16px */
+    margin-top: 160px;
+    position: absolute;
 }
 
 
-/******** SELLING ELEMENTS ********/
+/****** SELLING ELEMENTS ******/
 
 
 /* navigational nth-of-type number one image nth-of-type number two elements */
-nav:nth-of-type(1) img:nth-of-type(2) { /* targets selling image elements */
-    margin: -165px 0px 150px 550px;
+nav:nth-of-type(1) img:nth-of-type(2) {
+    margin-left: 40.625%; /* 650px/16px */
+    margin-top: 40px;
+    position: absolute;
 }
 
 /* navigational nth-of-type number one h3 nth-of-type number two elements */
-nav:nth-of-type(1) h3:nth-of-type(2) { /* targets selling h3 elements */
-    margin: -70px 0px 0px 565px;
+nav:nth-of-type(1) h3:nth-of-type(2) {
+    margin-left: 41.5625%; /* 665px/16px */
+    margin-top: 160px;
+    position: absolute;
 }
 
 
-/******** ACCOUNT ELEMENTS ********/
+/****** ACCOUNT ELEMENTS ******/
 
 
 /* navigational nth-of-type number one image nth-of-type number three elements */
-nav:nth-of-type(1) img:nth-of-type(3) { /* targets account image elements */
-    margin: -160px 0px 115px 970px;
+nav:nth-of-type(1) img:nth-of-type(3) {
+    margin-left: 68.125%; /* 1090px/16px */
+    margin-top: 40px;
+    position: absolute;
 }
 
 /* navigational nth-of-type number one h3 nth-of-type number three elements */
-nav:nth-of-type(1) h3:nth-of-type(3) {  /* targets account h3 elements */
-    margin: -35px 0px 0px 977px;
+nav:nth-of-type(1) h3:nth-of-type(3) {
+    margin-left: 68.75%; /* 1100px/16px */
+    margin-top: 160px;
+    position: absolute;
 }
 
 
@@ -115,19 +130,19 @@ nav:nth-of-type(2) { /* targets second navigational tag */
     background: #f6f6f6;
     border: 1px solid lightgray;
     box-shadow: 5px 5px 0px 0px #eee;
-    margin: 20px 1100px 0px 100px;
+    margin: 20px 79.0625% 0px 7.1875%; /* 1265px/16px, 115px/16px */
     height: 250px;
 }
 
 /* navigational nth-of-type number two image elements */
 nav:nth-of-type(2) img:nth-of-type(1) { /* targets second navigational tag's nested image */
-    width: 100px;
-    margin: 60px 0px 0px 45px;
+    width: 50%; /* 800px/16px */
+    margin: 60px 0% 0px 25%; /* 400px/16px */
 }
 
 /* navigational nth-of-type number two h3 elements */
 nav:nth-of-type(2) h3:nth-of-type(1) { /* targets all h3 elements */
-    margin: 20px 0px 0px 68px;
+    margin: 20px 0% 0px 35.9375%; /* 575px/16px */
 }
 
 /* navigational nth-of-type number two a elements */

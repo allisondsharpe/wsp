@@ -3,18 +3,23 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+/* body elements */
+body {
+    width: 100%; /* 16px */
+}
+
 /* aside elements */
 aside {
     border: 1px solid #666;
     position: absolute;
-    padding: 0px 20px 20px 20px;
-    margin-left: 20px;
+    padding: 0px 1.25% 50px 0%; /* left: 20px/16px, right: 22.5px/16px */
+    margin-left: 1.875%; /* 30px/16px */
     margin-top: 20px;
 }
 
 /* header direct paragraph, h1, image after h1, paragraph, and figure elements */
 header > p, h1, h1 + img, ul, footer {
-    padding-left: 30px;
+    padding-left: 4.375%; /* 70px/16px */
 }
 
 /* header direct paragraph elements */
@@ -25,18 +30,18 @@ header > p {
     color: navy;
     text-transform: uppercase;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /* header image, first child elements */
 header img:nth-child(1) {
-    width: 500px;
-    margin-left: -20px;
+    width: 50%; /* 800px/16px */
 }
 
 /* header image, second child elements */
 header img:nth-child(2) {
-    width: 70px;
-    margin-left: 300px;
+    width: 8.125%; /* 130px/16px */
+    margin-left: 37.5%; /* 600px/16px */
 }
 
 /* h1 elements */
@@ -50,10 +55,10 @@ h1 {
 
 /* image elements after h1 elements */
 h1 + img {
-    width: 400px;
+    width: 43.75%; /* 700px/16px */
     height: 200px;
-    margin-left: 420px;
-    margin-top: -40px;
+    margin-left: 46.875%; /* 750px/16px */
+    position: absolute;
 }
 
 /* strong elements */
@@ -64,10 +69,10 @@ strong {
 
 /* unordered list elements */
 ul {
-    margin-top: -150px;
     color: #666;
     font-family: sans-serif;
     font-weight: 100;
+    margin-top: 40px;
 }
 
 /* list item elements */
@@ -89,7 +94,7 @@ footer > p {
     opacity: 0.4;
     float: left;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 

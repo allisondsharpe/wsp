@@ -3,13 +3,18 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+/* body elements */
+body {
+    width: 100%; /* 16px */
+}
+
 /* header elements */
 header {
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 1.25%; /* 20px/16px */
     border: 1px solid #000;
     padding: 20px;
-    margin-right: 330px;
+    margin-right: 23.4375%; /* 375px/16px */
 }
 
 /* navigational elements */
@@ -17,14 +22,14 @@ nav {
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
     padding: 20px;
-    width: 1008px;
+    width: 100%; /* 1600px/16px */
 }
 
 /* a elements */
 a {
     color: #666;
     display: inline;
-    margin-right: 10px;
+    margin-right: 1.1875%; /* 19px/16px */
     margin-top: 20px;
 }
 
