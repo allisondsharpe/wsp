@@ -123,15 +123,31 @@ nav:nth-of-type(2) > ul > li { /* targets second navigational element */
 
 /****** RESPONSIVE MEDIA QUERIES ******/
 
-
-@media (min-width: 481px) and (max-width: 768px) {
+/**** tablet ****/
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+    button {
+        width: 10%;
+    }
 
 }
 
-@media (min-width: 321px) and (max-width: 480px) {
+/**** mobile ****/
+@media screen and (max-width: 600px) {
 
-}
+    body {
+        padding-left: 5%;
+    }
 
-@media (max-width: 320px) {
+    nav:nth-of-type(2) span {
+        margin-left: 0;
+    }
+
+    input {
+        clear: left;
+    }
+
+    button {
+        width: 20%;
+    }
 
 }

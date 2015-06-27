@@ -18,10 +18,10 @@ nav:nth-of-type(1) {
 }
 
 /* navigational nth-of-type number one a & unordered list items directly under a elements */
-nav:nth-of-type(1) a, a + ul { /* targets navigational links */
+nav:nth-of-type(1) a { /* targets navigational links */
     font-size: 1.0em;
-    padding: 20px;
     color: #fff;
+    padding: 20px;
 }
 
 /* navigational unordered list items hover & direct a elements */
@@ -48,10 +48,9 @@ span {
     height: 0px;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-top: 5px solid #000;
-    float: right;
-    margin-left: 10px;
-    margin-top: 5px;
+    border-top: 5px solid #fff;
+    margin-top: 6px;
+    margin-left: 1.25%; /* 20px/16px */
     position: absolute;
 }
 
@@ -73,7 +72,7 @@ a + ul { /* targets drop down menu under "services" */
 
 /* list item nth-of-type number four hover unordered list items directly after a item elements */
 li:nth-of-type(4):hover a + ul {
-    width: 125%; /* 2000px/16px */
+    width: 156.25%; /* 2500px/16px */
     background-color: #666;
     animation-name: drop-down-menu;
     animation-duration: 4s;
@@ -83,12 +82,12 @@ li:nth-of-type(4):hover a + ul {
 
 /****** ENDING DROP DOWN MENU ELEMENTS *******/
 
-
 /* navigational nth-of-type number one image last of type elements */
 nav:nth-of-type(1) img:last-of-type { /* targets the bottom image elements in the first navigation tag */
     height: 60px;
     float: left;
-    margin-left: 150px;
+    margin-left: 43.75%; /* 700px/16px */
+    position: absolute;
 }
 
 /* figure & figure image elements */
@@ -96,12 +95,12 @@ figure, figure img { /* targets the figure image */
     width: 31.25%; /* 500px/16px */
     height: 75px;
     clear: both;
-    margin: 20px 0% 0px 3.125%; /* 100px/16px */
+    margin: 45px 0% 0px 3.125%; /* 100px/16px */
 }
 
 /* input elements */
 input {
-    margin: 0px 0% 20px 62.5%; /* 1000px/16px */
+    margin: 0px 0% 0px 62.5%; /* 1000px/16px */
     border: 1px solid #000;
     width: 21.875%; /* 350px/16px */
     height: 25px;
@@ -113,29 +112,64 @@ input {
 form + nav { /* targets the form as well as the bottom navigational elements */
     float: left;
     margin: 0px 0% 0px 86.25%; /* 1380px/16px */
-    position: absolute;
 }
 
 /* navigational image elements under form elements */
 form + nav img { /* targets bottom navigational images */
     width: 18.75%; /* 300px/16px */
     height: 25px;
-    padding-right: 0.625%; /* 10px/16px */
-    display: inline-block;
-    margin-bottom: 5px;
 }
+
 
 /****** RESPONSIVE MEDIA QUERIES ******/
 
+/**** tablet ****/
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+    nav li, nav:nth-of-type(1) img:last-of-type {
+        clear: left;
+    }
 
-@media (min-width: 481px) and (max-width: 768px) {
+    nav:nth-of-type(1) img:last-of-type {
+        margin-left: 70%;
+    }
+
+    figure img {
+        width: 50%;
+    }
 
 }
 
-@media (min-width: 321px) and (max-width: 480px) {
+/**** mobile *****/
+@media screen and (max-width: 600px) {
 
-}
+    nav:nth-of-type(1) {
+        width: 100%;
+        float: left;
+    }
 
-@media (max-width: 320px) {
+    nav:nth-of-type(1) img:last-of-type {
+        margin-left: 15%;
+    }
+
+    nav li {
+        clear: left;
+    }
+
+    nav:nth-of-type(2) {
+        clear: left;
+        margin-top: 10%;
+        width: 30%;
+        margin-left: 62%;
+    }
+
+    figure img {
+        width: 130%;
+        margin-top: 50%;
+    }
+
+    input {
+        margin-left: 55%;
+        width: 40%;
+    }
 
 }

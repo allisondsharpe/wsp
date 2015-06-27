@@ -15,15 +15,16 @@ aside {
     padding: 0px 1.25% 50px 0%; /* left: 20px/16px, right: 22.5px/16px */
     margin-left: 1.875%; /* 30px/16px */
     margin-top: 20px;
+    width: 62.5%; /* 1000px/16px */
 }
 
-/* header direct paragraph, h1, image after h1, paragraph, and figure elements */
-header > p, h1, h1 + img, ul, footer {
+/* paragraph under header, h1, image after h1, paragraph, and figure elements */
+header + p, h1, h1 + img, ul, footer {
     padding-left: 4.375%; /* 70px/16px */
 }
 
-/* header direct paragraph elements */
-header > p {
+/* paragraph under header elements */
+header + p {
     font-size: 1.5em;
     font-weight: 100;
     font-family: sans-serif;
@@ -33,15 +34,16 @@ header > p {
     margin-top: 10px;
 }
 
-/* header image, first child elements */
-header img:nth-child(1) {
-    width: 50%; /* 800px/16px */
+/* header image nth-of-type number one elements  */
+header img:nth-of-type(1) {
+    width: 8.125%; /* 130px/16px */
+    margin-left: 87.5%; /* 1400px/16px */
+    position: absolute;
 }
 
-/* header image, second child elements */
-header img:nth-child(2) {
-    width: 8.125%; /* 130px/16px */
-    margin-left: 37.5%; /* 600px/16px */
+/* header image nth-of-type number two elements */
+header img:nth-of-type(2) {
+    width: 60%; /* 800px/16px */
 }
 
 /* h1 elements */
@@ -100,15 +102,30 @@ footer > p {
 
 /****** RESPONSIVE MEDIA QUERIES ******/
 
+/**** tablet ****/
 
-@media (min-width: 481px) and (max-width: 768px) {
-
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+    aside {
+        width: 60%;
+    }
 }
 
-@media (min-width: 321px) and (max-width: 480px) {
+/**** mobile ****/
+@media screen and (max-width: 600px) {
+    aside {
+        width: 100%;
+        border: none;
+        margin-top: 0;
+    }
 
-}
+    header img:nth-child(1) {
+        width: 8%;
+        height: 60px;
+    }
 
-@media (max-width: 320px) {
+    header img:nth-child(2) {
+        width: 50%;
+        height: 50px;
+    }
 
 }

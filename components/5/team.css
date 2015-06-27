@@ -86,28 +86,74 @@ article:nth-of-type(1) > p:nth-of-type(1) { /* targets only first paragraph of f
 /* figure elements */
 figure {
     clear: left;
+    position: absolute;
 }
 
 /* figure image elements */
 figure img {
     float: left;
-    margin-left: 0.3125%; /* 5px/16px */
-    width: 20px;
+    margin-left: 0.125%; /* 2px/16px */
+}
+
+/* article nth-of-type number one figure image & article nth-of-type number three figure image elements */
+article:nth-of-type(1) figure img, article:nth-of-type(3) figure img {
+    width: 1.5%
+}
+
+/* article nth-of-type number two figure image & article nth-of-type number four figure image elements */
+article:nth-of-type(2) figure img, article:nth-of-type(4) figure img {
+    width: 3%
 }
 
 
 /****** RESPONSIVE MEDIA QUERIES ******/
 
 
-@media (min-width: 481px) and (max-width: 768px) {
+/***** tablet ******/
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+    header {
+        padding: 2%;
+    }
+
+    article > img {
+        width: 25%; /* 400px/16px */
+        height: 130px;
+    }
+
+    article:nth-of-type(1) figure img, article:nth-of-type(3) figure img,
+    article:nth-of-type(2) figure img, article:nth-of-type(4) figure img {
+        width: 2%;
+    }
 
 }
 
-@media (min-width: 321px) and (max-width: 480px) {
+/****** mobile ******/
+@media screen and (max-width: 600px) {
+    header {
+        padding: 5%;
+    }
 
-}
+    article > h1, article > p, article > figure  {
+        clear: left;
+    }
 
-@media (max-width: 320px) {
+    article > img {
+        width: 24%;
+        height: 125px;
+        margin-top: 5%;
+        position: absolute;
+    }
+
+    article > p:nth-of-type(2) {
+        width: 80%;
+    }
+
+    article:nth-of-type(1) figure img, article:nth-of-type(3) figure img,
+    article:nth-of-type(2) figure img, article:nth-of-type(4) figure img {
+        width: 4%;
+        margin-left: 0.3%;
+        margin-top: 5%;
+    }
 
 }
 

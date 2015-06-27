@@ -11,6 +11,7 @@ body {
 /* section elements */
 section {
     font-family: sans-serif;
+    width: 100%;
 }
 
 /* header direct image elements */
@@ -75,6 +76,7 @@ a {
 nav {
     float: left;
     margin-top: 130px;
+    width: 28%;
 }
 
 /* navigational span elements */
@@ -84,8 +86,7 @@ nav span {
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-top: 5px solid #fff;
-    float: right;
-    margin-left: 10px;
+    margin-left: 12.5%; /* 200px/16px */
     margin-top: 5px;
     position: absolute;
 }
@@ -93,7 +94,7 @@ nav span {
 /* list item elements */
 nav li {
     display: block;
-    padding: 10px;
+    padding: 10px 1.25%;
     position: relative;
     text-decoration: none;
     margin-left: 9.375%; /* 150px/16px */
@@ -150,14 +151,80 @@ ul li:hover > ul, li ul:hover {
 /****** RESPONSIVE MEDIA QUERIES ******/
 
 
-@media (min-width: 481px) and (max-width: 768px) {
+/**** tablet ****/
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+
+    article {
+        margin-bottom: 0;
+    }
+
+    figure {
+        clear: left;
+        margin-top: 25%;
+    }
+
+    nav, a {
+        clear: left;
+    }
+
+    nav > ul > li > a {
+        margin: 0;
+        padding: 10%;
+        width: 200%;
+    }
+
+    nav > ul > li > ul > li {
+        padding-bottom: 5%;
+        width: 200%;
+    }
+
+    nav h1 {
+        width: 200%;
+    }
+
+    nav:nth-of-type(2) {
+        margin-top: 15%;
+    }
 
 }
 
-@media (min-width: 321px) and (max-width: 480px) {
+/**** mobile ****/
+@media screen and (max-width: 600px) {
 
-}
+    body {
+        padding-left: 5%;
+    }
 
-@media (max-width: 320px) {
+    article {
+        margin-bottom: 0;
+    }
+
+    figure {
+        clear: left;
+        margin-top: 70%;
+    }
+
+    nav, a {
+        clear: left;
+    }
+
+    nav > ul > li > a {
+        margin: 0;
+        padding: 20%;
+        width: 400%;
+    }
+
+    nav > ul > li > ul > li {
+        padding-bottom: 10%;
+        width: 200%;
+    }
+
+    nav h1 {
+        width: 500%;
+    }
+
+    nav:nth-of-type(2) {
+        margin-top: 30%;
+    }
 
 }

@@ -82,11 +82,11 @@ p {
 #introimg {
     float: right;
     clear: right;
-    margin-right: 80px;
+    margin-right: 5%;
     margin-top: -80px;
     border: 1px solid lightgrey;
     border-radius: 10em;
-    width: 230px;
+    width: 23%;
     height: 228px;
 }
 
@@ -144,7 +144,7 @@ button:active {
     margin-left: 48px;
     margin-bottom: 20px;
     border: 1px solid #333;
-    width: 750px;
+    width: 75%;
     height: 110px;
 }
 
@@ -155,7 +155,7 @@ button:active {
     margin-left: 50px;
     margin-bottom: 20px;
     border: 1px solid #333;
-    width: 650px;
+    width: 65%;
     height: 300px;
 }
 
@@ -166,7 +166,7 @@ button:active {
     margin-left: 50px;
     margin-bottom: 20px;
     border: 1px solid #333;
-    width: 600px;
+    width: 60%;
     height: 250px;
 }
 
@@ -177,7 +177,7 @@ button:active {
     margin-left: 50px;
     margin-bottom: 20px;
     border: 1px solid #333;
-    width: 630px;
+    width: 63%;
     height: 350px;
 }
 
@@ -188,7 +188,7 @@ button:active {
     margin-left: 50px;
     margin-bottom: 20px;
     border: 1px solid #333;
-    width: 700px;
+    width: 70%;
     height: 400px;
 }
 
@@ -199,7 +199,7 @@ button:active {
     margin-left: 50px;
     margin-bottom: 20px;
     border: 1px solid #333;
-    width: 590px;
+    width: 59%;
     height: 320px;
 }
 
@@ -210,7 +210,7 @@ button:active {
     margin-left: 50px;
     margin-bottom: 20px;
     border: 1px solid #333;
-    width: 600px;
+    width: 60%;
     height: 220px;
 }
 
@@ -221,7 +221,7 @@ button:active {
     margin-left: 50px;
     margin-bottom: 20px;
     border: 1px solid #333;
-    width: 833px;
+    width: 83%;
     height: 60px;
 }
 
@@ -232,7 +232,7 @@ button:active {
     margin-left: 50px;
     margin-bottom: 20px;
     border: 1px solid #333;
-    width: 550px;
+    width: 55%;
     height: 30px;
 }
 
@@ -243,6 +243,61 @@ button:active {
     margin-left: 50px;
     margin-bottom: 20px;
     border: 1px solid #fff;
-    width: 810px;
+    width: 81%;
     height: 270px;
+}
+
+
+/***** tablet *****/
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+
+    section {
+        width: 70%;
+    }
+
+    #introimg {
+        margin-bottom: 5%;
+        width: 25%;
+        height: 200px;
+    }
+
+    button {
+        margin-left: 40%;
+    }
+
+}
+
+/***** mobile ******/
+@media screen and (max-width: 600px) {
+
+    section {
+        width: 80%;
+        padding: 10%;
+    }
+
+    #introimg {
+        margin-bottom: 5%;
+        width: 90%;
+        height: 300px;
+    }
+
+    #header > img, #about > img, #cta > img, #features > img, #team > img,
+    #contact > img, #login > img, #navigation > img, #search > img, #footer > img {
+        margin-left: 0%;
+        margin-right: 500%;
+        width: 100%;
+    }
+
+    h3 {
+        padding-bottom: 20%;
+    }
+
+    img {
+        width: 500%;
+    }
+
+    button {
+        margin-left: 20%;
+    }
+
 }

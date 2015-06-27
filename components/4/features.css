@@ -55,7 +55,7 @@ figure img {
 /* paragraph elements */
 p {
     clear: left;
-    width: 71.25%; /* 570px/8px */
+    width: 68.75%; /* 1100px/16px */
     font-family: sans-serif;
     color: #666;
     font-weight: 100;
@@ -93,16 +93,50 @@ li > a {
 
 /****** RESPONSIVE MEDIA QUERIES ******/
 
+/**** tablet ****/
+@media screen and (max-width: 1200px) and (min-width: 600px) {
 
-@media (min-width: 481px) and (max-width: 768px) {
+    article {
+        width: 100%;
+        padding-left: 2%;
+    }
+
+    article:nth-of-type(2) {
+        clear: left;
+        float: left;
+    }
 
 }
 
-@media (min-width: 321px) and (max-width: 480px) {
+/**** mobile ****/
+@media screen and (max-width: 600px) {
+
+    article {
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    article:nth-of-type(1) {
+        border-bottom: 1px solid #666;
+    }
+
+    article:nth-of-type(2)  {
+        clear: left;
+        float: left;
+        margin-top: 10%;
+    }
+
+    article > h1  {
+        clear: left;
+        margin-top: 230%;
+    }
+
+    ul {
+        width: 90%;
+    }
+
+    figure img{
+        width: 60%;
+    }
 
 }
-
-@media (max-width: 320px) {
-
-}
-
