@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4599ef6f-62ec-47cb-9c2b-094292b7b3f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/2/about.css" afterPath="$PROJECT_DIR$/components/2/about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/2/about.html" afterPath="$PROJECT_DIR$/components/2/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/6/contact.css" afterPath="$PROJECT_DIR$/components/6/contact.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/6/contact.html" afterPath="$PROJECT_DIR$/components/6/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/3/cta.css" afterPath="$PROJECT_DIR$/components/3/cta.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/3/cta.html" afterPath="$PROJECT_DIR$/components/3/cta.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/4/features.css" afterPath="$PROJECT_DIR$/components/4/features.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/4/features.html" afterPath="$PROJECT_DIR$/components/4/features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/10/footer.css" afterPath="$PROJECT_DIR$/components/10/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/10/footer.html" afterPath="$PROJECT_DIR$/components/10/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/header.css" afterPath="$PROJECT_DIR$/components/1/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/header.html" afterPath="$PROJECT_DIR$/components/1/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/7/login.css" afterPath="$PROJECT_DIR$/components/7/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/7/login.html" afterPath="$PROJECT_DIR$/components/7/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/8/navigation.css" afterPath="$PROJECT_DIR$/components/8/navigation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/8/navigation.html" afterPath="$PROJECT_DIR$/components/8/navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/9/search.css" afterPath="$PROJECT_DIR$/components/9/search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/9/search.html" afterPath="$PROJECT_DIR$/components/9/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/5/team.css" afterPath="$PROJECT_DIR$/components/5/team.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/5/team.html" afterPath="$PROJECT_DIR$/components/5/team.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/.idea/workspace.xml" afterPath="$PROJECT_DIR$/components/.idea/workspace.xml" />
     </list>
     <ignored path="wsp.iws" />
     <ignored path=".idea/workspace.xml" />
